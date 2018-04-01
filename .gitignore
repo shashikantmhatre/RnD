@@ -1,0 +1,11 @@
+*.project
+*.classpath
+*.prefs
+*.properties
+*.class
+.settings/
+.project
+.classpath
+target/
+dist/
+*.log

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SRERequest xmlns:rating="http://mmpnc.com/rating"> 
+  <PolicyType>WorkersComp</PolicyType>  
+  <PolicyNo>1</PolicyNo>  
+  <RenewNo>0</RenewNo>  
+  <State/>  
+  <Premium>251973</Premium>  
+  <EffDate>2013-12-31T12:00:00</EffDate>  
+  <ExpDate>2014-12-31T12:00:00</ExpDate>  
+  <ProductId>2806104D-444C-3A12-A12C-4D0C406238D2</ProductId>  
+  <WorkersComp> 
+    <YearsInBusiness>10</YearsInBusiness>  
+    <SICCode>1234</SICCode>  
+    <LegalEntity>Association</LegalEntity>  
+    <GoverningState>Texas</GoverningState>  
+    <RatingIteration>1</RatingIteration>  
+    <XMLRatingRequest>Yes</XMLRatingRequest>  
+    <WorkersCompEmployersLiabilityCoverage> 
+      <EachAccidentLimit>1,000,000</EachAccidentLimit>  
+      <DiseasePolicyLimit>1,000,000</DiseasePolicyLimit>  
+      <DiseaseEachEmployeeLimit>1,000,000</DiseaseEachEmployeeLimit>  
+      <IncrLimitsPercent>2.0</IncrLimitsPercent>
+    </WorkersCompEmployersLiabilityCoverage>  
+    <EmployersLiabilityOnlyPolicy>No</EmployersLiabilityOnlyPolicy>  
+    <DeductibleType>Negotiated Deductible</DeductibleType>  
+    <NegotiatedDeductibleAmount>2500</NegotiatedDeductibleAmount>  
+    <WorkersCompSmallDeductibleCoverage> 
+      <NegotiatedDeductibleFactor>0.02</NegotiatedDeductibleFactor>  
+      <TotalModifiedPremium TempVariable="true">399915</TotalModifiedPremium>
+      <Premium>-80</Premium>
+      <preARDTotalModifiedPremium TempVariable="true">399915</preARDTotalModifiedPremium>
+      <PreARDPremium>-80</PreARDPremium>
+    </WorkersCompSmallDeductibleCoverage>  
+    <AdmiraltyLimit>500,000</AdmiraltyLimit>  
+    <WorkersCompAdmiraltyIncrLimitsCoveragePostARD/>  
+    <WorkersCompAdmiraltyIncrLimitsCoverage>
+      <dblAdmiraltyCoverageIncrLimitsPremium TempVariable="true">182811.2</dblAdmiraltyCoverageIncrLimitsPremium>
+      <Premium>182811</Premium>
+    </WorkersCompAdmiraltyIncrLimitsCoverage>  
+    <FederalEmployersLiabilityActCoverageLimit>Not Applicable</FederalEmployersLiabilityActCoverageLimit>  
+    <OffshoreIndicator>Yes</OffshoreIndicator>  
+    <OffshoreLowerLimit>100,000</OffshoreLowerLimit>  
+    <OffshoreUpperLimit>500,000</OffshoreUpperLimit>  
+    <WorkersCompOilGasOrOtherMineralOperationsOnOrOverWaterCoverageIncrLimitsCoveragePostARD/>  
+    <WorkersCompOilGasOrOtherMineralOperationsOnOrOverWaterCoverageIncrLimitsCoverage>
+      <oilPremium TempVariable="true">100</oilPremium>
+      <offshoreUpperLimit TempVariable="true">500,000</offshoreUpperLimit>
+      <offshoreLowerLimit TempVariable="true">100,000</offshoreLowerLimit>
+      <LookupOffshoreLimits TempVariable="true">1.71</LookupOffshoreLimits>
+      <OffshoreIncrLimitsFactor>1.71</OffshoreIncrLimitsFactor>
+      <Premium>71</Premium>
+    </WorkersCompOilGasOrOtherMineralOperationsOnOrOverWaterCoverageIncrLimitsCoverage>  
+    <ExperienceModIndicator>Yes</ExperienceModIndicator>  
+    <WorkersCompExperienceModCoverage> 
+      <ExperienceMod>0.95</ExperienceMod>  
+      <subjectPremium TempVariable="true">438503</subjectPremium>
+      <ProRateFactorPreARD TempVariable="true">1</ProRateFactorPreARD>
+      <ExperienceModFactor>0.95</ExperienceModFactor>
+      <Premium>-21925</Premium>
+    </WorkersCompExperienceModCoverage>  
+    <NegotiatedExperienceModIndicator>No</NegotiatedExperienceModIndicator>  
+    <ModeledRatingFactorIndicator>No</ModeledRatingFactorIndicator>  
+    <ScheduleModIndicator>No</ScheduleModIndicator>  
+    <NetworkCreditIndicator>Yes</NetworkCreditIndicator>  
+    <WorkersCompNetworkCreditCoverage> 
+      <Factor>0.96</Factor>  
+      <totalBasisPremium TempVariable="true">416578</totalBasisPremium>
+      <NetworkCreditFactor>0.96</NetworkCreditFactor>
+      <Premium>-16663</Premium>
+      <preARDTotalSubjectPremium TempVariable="true">416578</preARDTotalSubjectPremium>
+      <scheduledRatingPreARDPremium TempVariable="true">0</scheduledRatingPreARDPremium>
+      <modelRatingFactorPreARDPremium TempVariable="true">0</modelRatingFactorPreARDPremium>
+      <PreARDPremium>-16663</PreARDPremium>
+      <totalBasisPremiumforPostProcess TempVariable="true">416578</totalBasisPremiumforPostProcess>
+      <PostARDPremium>0</PostARDPremium>
+      <ProRateFactorPostARD>0</ProRateFactorPostARD>
+      <PostARDPremiumProRated>0</PostARDPremiumProRated>
+    </WorkersCompNetworkCreditCoverage>  
+    <WorkersCompEmployersLiabIncrLimitsCoveragePostARD/>  
+    <WorkersCompEmployersLiabIncrLimitsCoverage>
+      <WorkersCompTotalManualPremium TempVariable="true">255087</WorkersCompTotalManualPremium>
+      <dblFELAPremium TempVariable="true">0</dblFELAPremium>
+      <FELAUSLHPremium TempVariable="true">0</FELAUSLHPremium>
+      <FELASupplementaryDiseasePremium TempVariable="true">0</FELASupplementaryDiseasePremium>
+      <dblAdmiraltyPremium TempVariable="true">228400</dblAdmiraltyPremium>
+      <AdmiraltyUSLHPremium TempVariable="true">0</AdmiraltyUSLHPremium>
+      <AdmiraltySupplementaryDiseasePremium TempVariable="true">0</AdmiraltySupplementaryDiseasePremium>
+      <WorkersCompEmployersLiabilityCoverageIncrLimitsPercent TempVariable="true">2.0</WorkersCompEmployersLiabilityCoverageIncrLimitsPercent>
+      <Premium>534</Premium>
+    </WorkersCompEmployersLiabIncrLimitsCoverage>  
+    <WorkersCompPremiumDiscountCoverage>
+      <TotalStandardPremium TempVariable="true">399835</TotalStandardPremium>
+      <FirstAmount>5000.0</FirstAmount>
+      <WorkersCompPackageTotalStandardPremium TempVariable="true">0</WorkersCompPackageTotalStandardPremium>
+      <StateRatio>1</StateRatio>
+      <preARDTotalStandardPremium TempVariable="true">399835</preARDTotalStandardPremium>
+      <Next1PremiumBase>95000.0</Next1PremiumBase>
+      <Next1Amount>95000.0</Next1Amount>
+      <Next1Pct>8.4</Next1Pct>
+      <Next1Premium>7980</Next1Premium>
+      <Next2PremiumBase>400000.0</Next2PremiumBase>
+      <Next2Amount>400000.0</Next2Amount>
+      <Next2Pct>10.5</Next2Pct>
+      <Next2Premium>42000</Next2Premium>
+      <OverPct>11.0</OverPct>
+      <OverPremium>97882</OverPremium>
+      <Premium>-147862</Premium>
+      <PreARDNext1PremiumBase>95000.0</PreARDNext1PremiumBase>
+      <PreARDNext1Premium>7980</PreARDNext1Premium>
+      <PreARDNext2PremiumBase>400000.0</PreARDNext2PremiumBase>
+      <PreARDNext2Premium>42000</PreARDNext2Premium>
+      <PreARDOverPremiumBase>889835</PreARDOverPremiumBase>
+      <PreARDOverPremium>97882</PreARDOverPremium>
+      <PreARDPremium>-147862</PreARDPremium>
+      <PostARDPremium>0</PostARDPremium>
+      <ProRateFactorPostARD>0</ProRateFactorPostARD>
+      <PostARDPremiumProRated>0</PostARDPremiumProRated>
+    </WorkersCompPremiumDiscountCoverage>  
+    <WorkersCompEmployersLiabilityCoverage/>  
+    <WorkersCompEmployersLiabilityCoveragePostARD/>  
+    <WorkersCompMaritimeCoverageEndorsementA> 
+      <WorkersCompMaritimeCoverageEndorsementADetail>
+        <Premium></Premium>
+      </WorkersCompMaritimeCoverageEndorsementADetail>  
+      <Premium>0</Premium>
+    </WorkersCompMaritimeCoverageEndorsementA>  
+    <WorkersCompPremiumDiscountEndorsement/>  
+    <WorkersCompPremiumDueDateEndorsement/>  
+    <WorkersCompAmendatoryEndorsement/>  
+    <WorkersCompHealthCareNetworkEndorsement/>  
+    <WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsement> 
+      <WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsementDetail> 
+        <WaiverType>Blanket</WaiverType>  
+        <PersonOrganization>WC_TX_09072013</PersonOrganization>  
+        <Operations>Dredging</Operations>  
+        <ManualPremium>223</ManualPremium>  
+        <WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsementDetailCoveragePostARD/>  
+        <WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsementDetailCoverage>
+          <ManualPremium TempVariable="true">223</ManualPremium>
+          <Premium>223</Premium>
+        </WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsementDetailCoverage>  
+        <Premium>223</Premium>
+      </WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsementDetail>  
+      <Premium>223</Premium>
+    </WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsement>  
+    <WorkersCompWorkersCompensationAndEmployersLiabilityInsurancePolicyA/>  
+    <WorkersCompLocation> 
+      <UnitNumber>1</UnitNumber>  
+      <City>Alice</City>  
+      <County>Jim Wells</County>  
+      <ZipCode>78332</ZipCode>  
+      <WorkersCompClass> 
+        <UnitNumber>1</UnitNumber>  
+        <SelectBy>Class Code</SelectBy>  
+        <ClassCodeForClassDescription>7046</ClassCodeForClassDescription>  
+        <ClassDescriptionByClassCode>Vessels - not self-propelled-Program I</ClassDescriptionByClassCode>  
+        <WorkersCompClassClassCodeCoveragePostARD/>  
+        <WorkersCompClassClassCodeCoverage>
+          <Premium>0</Premium>
+          <Payroll TempVariable="true">4000000</Payroll>
+          <ClassCode>7046</ClassCode>
+        </WorkersCompClassClassCodeCoverage>  
+        <IfAny>No</IfAny>  
+        <Payroll>4000000</Payroll>  
+        <WorkersCompSupplementaryDiseasePremiumCoverage> 
+          <SupplementaryDiseaseType>Not Applicable</SupplementaryDiseaseType>  
+          <SupplementalDiseaseLoading>Yes</SupplementalDiseaseLoading>  
+          <ManualPremium>250</ManualPremium>  
+          <ClassCode>7046</ClassCode>
+          <SubjectPayroll>0</SubjectPayroll>
+          <SupplementaryDiseaseAdjustment>0</SupplementaryDiseaseAdjustment>
+          <Premium>0</Premium>
+        </WorkersCompSupplementaryDiseasePremiumCoverage>  
+        <WorkersCompSupplementalDiseasePremiumCoveragePostARD/>  
+        <WorkersCompClassCoverage> 
+          <USLHAdjustment>No</USLHAdjustment>  
+          <LookupAdmiraltyClassCodeIndicator TempVariable="true">1</LookupAdmiraltyClassCodeIndicator>
+          <AdmiraltyClassCodeIndicator>1</AdmiraltyClassCodeIndicator>
+          <EmployersLiabilityOnlyPolicy TempVariable="true">No</EmployersLiabilityOnlyPolicy>
+          <LookupDiseaseClassCodeIndicator TempVariable="true">0</LookupDiseaseClassCodeIndicator>
+          <DiseaseClassCodes>0</DiseaseClassCodes>
+          <ClassCode>7046</ClassCode>
+          <LookupARateClassCodeIndicator TempVariable="true">0</LookupARateClassCodeIndicator>
+          <ARateClassCodeIndicator>0</ARateClassCodeIndicator>
+          <LookupClassCodeRate TempVariable="true">5.71</LookupClassCodeRate>
+          <ClassCodeRate>5.71</ClassCodeRate>
+          <LossCostMultiplier>1.0</LossCostMultiplier>
+          <FinalClassCodeRate>5.71</FinalClassCodeRate>
+          <LookupFELAClassCodes TempVariable="true">0</LookupFELAClassCodes>
+          <FELAClassCodeIndicator>0</FELAClassCodeIndicator>
+        </WorkersCompClassCoverage>  
+        <OilGasMineralAdjustment>No</OilGasMineralAdjustment>  
+        <WorkersCompClassTransportationWagesMaintenanceAndCureCoverage> 
+          <TWMCAdjustment>Yes</TWMCAdjustment>  
+          <TWMCRate>0.05</TWMCRate>  
+          <calcPremium TempVariable="true">114</calcPremium>
+          <finalClassCodeRate TempVariable="true">5.71</finalClassCodeRate>
+          <payroll TempVariable="true">4000000</payroll>
+          <Premium>114</Premium>
+        </WorkersCompClassTransportationWagesMaintenanceAndCureCoverage>  
+        <WorkersCompAdmiraltyCoverage>
+          <transportation TempVariable="true">114</transportation>
+          <Premium>228400</Premium>
+          <FinalClassCodeRate TempVariable="true">5.71</FinalClassCodeRate>
+          <Payroll TempVariable="true">4000000</Payroll>
+          <ClassCode TempVariable="true">7046</ClassCode>
+          <AdmiraltyLimit TempVariable="true">500,000</AdmiraltyLimit>
+          <IncrLimitsFactor>1.8</IncrLimitsFactor>
+          <IncrLimitsPremium>182811.2</IncrLimitsPremium>
+        </WorkersCompAdmiraltyCoverage>  
+        <WorkersCompClassTransportationWagesMaintenanceAndCureCoveragePostARD/>  
+        <ClassCode>7046</ClassCode>
+        <ManualPremium>228400</ManualPremium>
+        <Premium>228514</Premium>
+      </WorkersCompClass>  
+      <WorkersCompClass> 
+        <UnitNumber>2</UnitNumber>  
+        <SelectBy>Class Code</SelectBy>  
+        <ClassCodeForClassDescription>1803</ClassCodeForClassDescription>  
+        <ClassDescriptionByClassCode>Fiberglass Insulation Mfg And Drivers</ClassDescriptionByClassCode>  
+        <WorkersCompClassClassCodeCoveragePostARD/>  
+        <WorkersCompClassClassCodeCoverage>
+          <Premium>21510</Premium>
+          <Payroll TempVariable="true">450000</Payroll>
+          <ClassCode>1803</ClassCode>
+          <FinalClassCodeRate>4.78</FinalClassCodeRate>
+        </WorkersCompClassClassCodeCoverage>  
+        <DiseaseLoading>Remove</DiseaseLoading>  
+        <IfAny>No</IfAny>  
+        <Payroll>450000</Payroll>  
+        <WorkersCompSupplementaryDiseasePremiumCoverage> 
+          <SupplementaryDiseaseType>Not Applicable</SupplementaryDiseaseType>  
+          <SupplementalDiseaseLoading>Yes</SupplementalDiseaseLoading>  
+          <ManualPremium>350.0</ManualPremium>  
+          <ClassCode>1803</ClassCode>
+          <SubjectPayroll>0</SubjectPayroll>
+          <SupplementaryDiseaseAdjustment>0</SupplementaryDiseaseAdjustment>
+          <Premium>0</Premium>
+        </WorkersCompSupplementaryDiseasePremiumCoverage>  
+        <WorkersCompSupplementalDiseasePremiumCoveragePostARD/>  
+        <WorkersCompClassCoverage> 
+          <USLHAdjustment>No</USLHAdjustment>  
+          <LookupAdmiraltyClassCodeIndicator TempVariable="true">0</LookupAdmiraltyClassCodeIndicator>
+          <AdmiraltyClassCodeIndicator>0</AdmiraltyClassCodeIndicator>
+          <LookupFELAClassCodes TempVariable="true">0</LookupFELAClassCodes>
+          <FELAClassCodeIndicator>0</FELAClassCodeIndicator>
+          <ClassCode>1803</ClassCode>
+          <EmployersLiabilityOnlyPolicy TempVariable="true">No</EmployersLiabilityOnlyPolicy>
+          <LookupDiseaseClassCodeIndicator TempVariable="true">1</LookupDiseaseClassCodeIndicator>
+          <DiseaseClassCodes>1</DiseaseClassCodes>
+          <DiseaseLoading>Remove</DiseaseLoading>
+          <LookupARateClassCodeIndicator TempVariable="true">0</LookupARateClassCodeIndicator>
+          <ARateClassCodeIndicator>0</ARateClassCodeIndicator>
+          <LookupClassCodeRate TempVariable="true">4.78</LookupClassCodeRate>
+          <ClassCodeRate>4.78</ClassCodeRate>
+          <LossCostMultiplier>1.0</LossCostMultiplier>
+          <LookupDiseaseLoadingRate TempVariable="true">0.0</LookupDiseaseLoadingRate>
+          <DiseaseLoadingRate>0.0</DiseaseLoadingRate>
+          <FinalClassCodeRate>4.78</FinalClassCodeRate>
+        </WorkersCompClassCoverage>  
+        <OilGasMineralAdjustment>Yes</OilGasMineralAdjustment>  
+        <WorkersCompClassOilGasOrOtherMineralOperationsOnOrOverWaterCoverage> 
+          <ARateOil>0.02</ARateOil>  
+          <SubjectPayroll>500000</SubjectPayroll>  
+          <calcPremium TempVariable="true">100</calcPremium>
+          <classCode TempVariable="true">1803</classCode>
+          <factor TempVariable="true">0.02</factor>
+          <Factor>0.02</Factor>
+          <Premium>100</Premium>
+        </WorkersCompClassOilGasOrOtherMineralOperationsOnOrOverWaterCoverage>  
+        <WorkersCompClassOilGasOrOtherMineralOperationsOnOrOverWaterCoveragePostARD/>  
+        <ClassCode>1803</ClassCode>
+        <ManualPremium>21510</ManualPremium>
+        <Premium>21610</Premium>
+      </WorkersCompClass>  
+      <WorkersCompClass> 
+        <UnitNumber>3</UnitNumber>  
+        <SelectBy>Class Code</SelectBy>  
+        <ClassCodeForClassDescription>5057</ClassCodeForClassDescription>  
+        <ClassDescriptionByClassCode>Iron or Steel: Erection: Noc And Drivers</ClassDescriptionByClassCode>  
+        <WorkersCompClassClassCodeCoveragePostARD/>  
+        <WorkersCompClassClassCodeCoverage>
+          <Premium>4740</Premium>
+          <Payroll TempVariable="true">50000</Payroll>
+          <ClassCode>5057</ClassCode>
+          <FinalClassCodeRate>9.48</FinalClassCodeRate>
+        </WorkersCompClassClassCodeCoverage>  
+        <DiseaseLoading>Remove</DiseaseLoading>  
+        <IfAny>No</IfAny>  
+        <Payroll>50000</Payroll>  
+        <WorkersCompSupplementaryDiseasePremiumCoverage> 
+          <SupplementaryDiseaseType>Not Applicable</SupplementaryDiseaseType>  
+          <SupplementaryDiseaseAdjustment>0</SupplementaryDiseaseAdjustment>  
+          <ClassCode>5057</ClassCode>
+          <SubjectPayroll>0</SubjectPayroll>
+          <Premium>0</Premium>
+        </WorkersCompSupplementaryDiseasePremiumCoverage>  
+        <WorkersCompClassCoverage> 
+          <USLHAdjustment>No</USLHAdjustment>  
+          <LookupAdmiraltyClassCodeIndicator TempVariable="true">0</LookupAdmiraltyClassCodeIndicator>
+          <AdmiraltyClassCodeIndicator>0</AdmiraltyClassCodeIndicator>
+          <LookupFELAClassCodes TempVariable="true">0</LookupFELAClassCodes>
+          <FELAClassCodeIndicator>0</FELAClassCodeIndicator>
+          <ClassCode>5057</ClassCode>
+          <EmployersLiabilityOnlyPolicy TempVariable="true">No</EmployersLiabilityOnlyPolicy>
+          <LookupDiseaseClassCodeIndicator TempVariable="true">0</LookupDiseaseClassCodeIndicator>
+          <DiseaseClassCodes>0</DiseaseClassCodes>
+          <LookupARateClassCodeIndicator TempVariable="true">0</LookupARateClassCodeIndicator>
+          <ARateClassCodeIndicator>0</ARateClassCodeIndicator>
+          <LookupClassCodeRate TempVariable="true">9.48</LookupClassCodeRate>
+          <ClassCodeRate>9.48</ClassCodeRate>
+          <LossCostMultiplier>1.0</LossCostMultiplier>
+          <FinalClassCodeRate>9.48</FinalClassCodeRate>
+        </WorkersCompClassCoverage>  
+        <OilGasMineralAdjustment>No</OilGasMineralAdjustment>  
+        <ClassCode>5057</ClassCode>
+        <ManualPremium>4740</ManualPremium>
+        <Premium>4740</Premium>
+      </WorkersCompClass>  
+      <Premium>254864</Premium>
+    </WorkersCompLocation>  
+    <Premium>251973</Premium>
+    <manualPremium TempVariable="true">254650</manualPremium>
+    <supplementaryDiseasePremium TempVariable="true">0</supplementaryDiseasePremium>
+    <USLHCoveragePremium TempVariable="true">0</USLHCoveragePremium>
+    <aircraftPremiumEndorsementDetailPremium TempVariable="true">0</aircraftPremiumEndorsementDetailPremium>
+    <waiverOfOurRightToRecoverFromOThersPremium TempVariable="true">223</waiverOfOurRightToRecoverFromOThersPremium>
+    <transportationPremium TempVariable="true">114</transportationPremium>
+    <oilPremium TempVariable="true">100</oilPremium>
+    <TotalManualPremium>255087</TotalManualPremium>
+    <employersLiabIncrLimitsCoveragePremium TempVariable="true">534</employersLiabIncrLimitsCoveragePremium>
+    <federalEmployersLiabilityActIncrLimitsCoveragePremium TempVariable="true">0</federalEmployersLiabilityActIncrLimitsCoveragePremium>
+    <admiraltyIncrLimitsCoveragePremium TempVariable="true">182811</admiraltyIncrLimitsCoveragePremium>
+    <oilIncreaseLimtss TempVariable="true">71</oilIncreaseLimtss>
+    <premiumIncentiveForSmallEmployersCoverage TempVariable="true">0</premiumIncentiveForSmallEmployersCoverage>
+    <SubjectPremium>438503</SubjectPremium>
+    <ProRateFactorPreARD>1</ProRateFactorPreARD>
+    <scheduleModforTotalBasisPremium TempVariable="true">0</scheduleModforTotalBasisPremium>
+    <modeledRatingFactorCoveragePremium TempVariable="true">0</modeledRatingFactorCoveragePremium>
+    <experienceMod TempVariable="true">-21925</experienceMod>
+    <negotiatedExperienceMod TempVariable="true">0</negotiatedExperienceMod>
+    <experienceModCoveragePostARD TempVariable="true">0</experienceModCoveragePostARD>
+    <negotiatedExperienceModCoveragePostARD TempVariable="true">0</negotiatedExperienceModCoveragePostARD>
+    <TotalSubjectPremium>416578</TotalSubjectPremium>
+    <BasisPremium>416578</BasisPremium>
+    <TotalBasisPremium>416578</TotalBasisPremium>
+    <premiumDiscountCoveragePremium TempVariable="true">-147862</premiumDiscountCoveragePremium>
+    <supplementalDiseasePremiumCoveragePremium TempVariable="true">0</supplementalDiseasePremiumCoveragePremium>
+    <atomicEnergyRadiationPremiu TempVariable="true">0</atomicEnergyRadiationPremiu>
+    <smallDeductible TempVariable="true">-80</smallDeductible>
+    <scheduleMod TempVariable="true">0</scheduleMod>
+    <networkCredit TempVariable="true">-16663</networkCredit>
+    <TotalModifiedPremium>399915</TotalModifiedPremium>
+    <TotalStandardPremium>399835</TotalStandardPremium>
+    <preARDsmallDeductible TempVariable="true">-80</preARDsmallDeductible>
+    <preARDScheduleMod TempVariable="true">0</preARDScheduleMod>
+    <preARDNetworkCredit TempVariable="true">-16663</preARDNetworkCredit>
+    <experienceModCoveragePostARDPremium TempVariable="true">0</experienceModCoveragePostARDPremium>
+    <NegotiatedExperienceModCoveragePostARDPremium TempVariable="true">0</NegotiatedExperienceModCoveragePostARDPremium>
+    <PreARDTotalSubjectPremium>416578</PreARDTotalSubjectPremium>
+    <modeledRatingFactorCoveragePremiumPreARDPremium TempVariable="true">0</modeledRatingFactorCoveragePremiumPreARDPremium>
+    <PreARDTotalModifiedPremium>399915</PreARDTotalModifiedPremium>
+    <PreARDTotalStandardPremium>399835</PreARDTotalStandardPremium>
+    <ProRateFactorPostARD>0</ProRateFactorPostARD>
+    <CatastropheOtherThanCertifiedActsOfTerrorismPremium TempVariable="true">0</CatastropheOtherThanCertifiedActsOfTerrorismPremium>
+    <TerrorismRiskInsuranceProgramReauthorizationActDisclosureEndorsementPremium TempVariable="true">0</TerrorismRiskInsuranceProgramReauthorizationActDisclosureEndorsementPremium>
+    <EstimatedAnnualPremium>251973</EstimatedAnnualPremium>
+  </WorkersComp>  
+</SRERequest>

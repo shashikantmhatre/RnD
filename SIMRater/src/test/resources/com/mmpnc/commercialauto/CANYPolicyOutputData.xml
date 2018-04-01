@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rating="http://mmpnc.com/rating" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/com/mmpnc/policy/iso/vo/BasePolicySchema.xsd">  
+  <PolicyType>CommercialAuto</PolicyType>  
+  <PolicyNo>CA1234</PolicyNo>  
+  <RenewNo>0</RenewNo>  
+  <State/>  
+  <Premium>805</Premium>  
+  <EffDate>2013-01-31T12:00:00</EffDate>  
+  <ExpDate>2014-01-31T12:00:00</ExpDate>  
+  <Ratebook>{AECDA1F0-5F07-4220-954D-C711DD06D8DB}</Ratebook>  
+  <CommercialAuto> 
+    <PolicyType>Business Auto Coverage Form</PolicyType>  
+    <Ratebook>{AECDA1F0-5F07-4220-954D-C711DD06D8DB}</Ratebook>  
+    <LegalEntity>Corporation</LegalEntity>  
+    <GrossReceiptsRatingBasis>No</GrossReceiptsRatingBasis>  
+    <FinancialResponsibility>No</FinancialResponsibility>  
+    <TrailerInterchangeAgreement>No</TrailerInterchangeAgreement>  
+    <HiredAuto>No</HiredAuto>  
+    <NonOwnedAutoWanted>No</NonOwnedAutoWanted>  
+    <FuneralDirectorMedicalPayments>No</FuneralDirectorMedicalPayments>  
+    <TerrorismCoverage>No</TerrorismCoverage>  
+    <OptionalBasicEconomicLossCoverage>No</OptionalBasicEconomicLossCoverage>  
+    <CommercialAutoVehicleUninsuredMotoristPolicyCoverage> 
+      <CoverageType>Supplementary Coverage - Split Limit</CoverageType>  
+      <ClassType>Individual or Married Couple</ClassType>  
+      <CombinedSingleLimitText>Not Applicable</CombinedSingleLimitText>  
+      <SplitLimit>250,000/500,000</SplitLimit> 
+    </CommercialAutoVehicleUninsuredMotoristPolicyCoverage>  
+    <PulledByPowerUnit>No</PulledByPowerUnit>  
+    <ExperienceRatingModificationApplies>No</ExperienceRatingModificationApplies>  
+    <ScheduleRatingModificationApplies>No</ScheduleRatingModificationApplies>  
+    <CommercialAutoTruck> 
+      <UnitNumber>1</UnitNumber>  
+      <Year>2008</Year>  
+      <Make>Sample</Make>  
+      <Model>Test</Model>  
+      <VIN>1234567890</VIN>  
+      <VehicleType>Truck</VehicleType>  
+      <PrimaryClassCode>11</PrimaryClassCode>  
+      <SecondaryClassCode>2</SecondaryClassCode>  
+      <SizeClass>Light Truck</SizeClass>  
+      <RadiusClass>Local</RadiusClass>  
+      <BusinessUseClass>Service</BusinessUseClass>  
+      <Fleet>No</Fleet>  
+      <GrossVehicleWeight>2500</GrossVehicleWeight>  
+      <SecondaryClass>Truckers - Carrier Both Private Carriage &amp; Transport Goods/Materials/Commodities</SecondaryClass>  
+      <FarmersLimitedRegistrationPlates>No</FarmersLimitedRegistrationPlates>  
+      <GaragingLocation>Glenwood</GaragingLocation>  
+      <Territory>041</Territory>  
+      <ZipCode>14069</ZipCode>  
+      <AccidentPreventionDiscount>Yes</AccidentPreventionDiscount>  
+      <AuxillaryRunningLampsDiscount>No</AuxillaryRunningLampsDiscount>  
+      <TrailerHowUsed>Not Applicable</TrailerHowUsed>  
+      <OriginalCostNew>50000</OriginalCostNew>  
+      <StatedAmount>0</StatedAmount>  
+      <CommercialAutoVehicleLiabilityCoverage> 
+        <CoverageType>Combined Single Limit</CoverageType>  
+        <LimitText>100,000</LimitText>  
+        <Deductible>No Deductible</Deductible>  
+        <trailerHowUsed TempVariable="true">Not Applicable</trailerHowUsed>
+        <coverageType TempVariable="true">Combined Single Limit</coverageType>
+        <limitText TempVariable="true">100,000</limitText>
+        <vehicleType TempVariable="true">Truck</vehicleType>
+        <liabilityCombinedRatingFactor TempVariable="true">1.75</liabilityCombinedRatingFactor>
+        <TerritoryFactor TempVariable="true">1</TerritoryFactor>
+        <territoryFactor TempVariable="true">1</territoryFactor>
+        <garagingLocation TempVariable="true">Glenwood</garagingLocation>
+        <Territory TempVariable="true">041</Territory>
+        <vehicleIndicator TempVariable="true"></vehicleIndicator>
+        <ratingBasisNumeric TempVariable="true"></ratingBasisNumeric>
+        <ZoneRated TempVariable="true">false</ZoneRated>
+        <PreliminaryBasePremium>275.0</PreliminaryBasePremium>
+        <lcmLiability TempVariable="true">1.0</lcmLiability>
+        <BasePremium>275.000</BasePremium>
+        <sizeClass TempVariable="true">Light Truck</sizeClass>
+        <LookupTruckIncreaseLimitFactorClass TempVariable="true">Light And Medium Trucks</LookupTruckIncreaseLimitFactorClass>
+        <IncreaseLiabilityClass>Light And Medium Trucks</IncreaseLiabilityClass>
+        <IncreaseLiabilityFactor>1.0</IncreaseLiabilityFactor>
+        <DeductibleFactor>1.0</DeductibleFactor>
+        <PremiumILFDeductible>1</PremiumILFDeductible>
+        <FleetFactor>1</FleetFactor>
+        <AccidentPreventionDiscountFactor>0.9</AccidentPreventionDiscountFactor>
+        <AuxillaryRunningLampsDiscountFactor>1</AuxillaryRunningLampsDiscountFactor>
+        <HiredAutoFactor>1</HiredAutoFactor>
+        <Premium>433</Premium>
+      </CommercialAutoVehicleLiabilityCoverage>  
+      <CommercialAutoVehicleMedicalPaymentsCoverage> 
+        <LimitText>1,000</LimitText>  
+        <lcmLiability TempVariable="true">1.0</lcmLiability>
+        <ratingBasisNumeric TempVariable="true"></ratingBasisNumeric>
+        <trailerHowUsed TempVariable="true">Not Applicable</trailerHowUsed>
+        <garagingLocation TempVariable="true">Glenwood</garagingLocation>
+        <LookupTruckMedicalPaymentsTextBasePremium TempVariable="true">0.62</LookupTruckMedicalPaymentsTextBasePremium>
+        <publicTransportationGroup TempVariable="true"></publicTransportationGroup>
+        <PreliminaryBasePremium>0.62</PreliminaryBasePremium>
+        <BasePremium>0.620</BasePremium>
+        <ShowroomFactor>1</ShowroomFactor>
+        <classCodeNumeric TempVariable="true">11.0</classCodeNumeric>
+        <liabilityPrimaryRatingFactor TempVariable="true">1.0</liabilityPrimaryRatingFactor>
+        <PrimaryFactor>1</PrimaryFactor>
+        <AuxillaryRunningLampsDiscountFactor>1</AuxillaryRunningLampsDiscountFactor>
+        <Premium>1</Premium>
+      </CommercialAutoVehicleMedicalPaymentsCoverage>  
+      <CommercialAutoVehiclePIPCoverage> 
+        <CoverageType>Basic</CoverageType>  
+        <RatingBasis>Covered by Workers'' Compensation</RatingBasis>  
+        <Deductible>100</Deductible>  
+        <AdditionalPersonalInjuryProtection>Yes</AdditionalPersonalInjuryProtection>  
+        <ExclusionOfWorkLoss>Yes</ExclusionOfWorkLoss>  
+        <MedicalExpenseElimination>No Elimination of Coverage</MedicalExpenseElimination>  
+        <vehicleType TempVariable="true">Truck</vehicleType>
+        <TerritoryFactor TempVariable="true">1</TerritoryFactor>
+        <Territory TempVariable="true">041</Territory>
+        <garagingLocation TempVariable="true">Glenwood</garagingLocation>
+        <ratingBasisNumeric TempVariable="true">0</ratingBasisNumeric>
+        <LookupTruckPIPBasePremium TempVariable="true">22.0</LookupTruckPIPBasePremium>
+        <PreliminaryBasicPremium>22.0</PreliminaryBasicPremium>
+        <lcmLiability TempVariable="true">1.0</lcmLiability>
+        <BasicPremium>22.000</BasicPremium>
+        <ExclusionOfWorkLossFactor>0.9</ExclusionOfWorkLossFactor>
+        <MedicalExpenseEliminationFactor>1.0</MedicalExpenseEliminationFactor>
+        <DeductibleFactor>0.85</DeductibleFactor>
+        <classCodeNumeric TempVariable="true">11.0</classCodeNumeric>
+        <PrimaryFactor>1</PrimaryFactor>
+        <AccidentPreventionDiscountFactor>0.9</AccidentPreventionDiscountFactor>
+        <AuxillaryRunningLampsDiscountFactor>1</AuxillaryRunningLampsDiscountFactor>
+        <Premium>15</Premium>
+      </CommercialAutoVehiclePIPCoverage>  
+      <CommercialAutoVehicleUninsuredMotoristCoverage> 
+        <Wanted>Yes</Wanted>  
+        <lcmLiability TempVariable="true">1.0</lcmLiability>
+        <uninsuredUnderinsuredMotoristType TempVariable="true"></uninsuredUnderinsuredMotoristType>
+        <BasePremium>0</BasePremium>
+        <ClassOneSurcharge>0.0</ClassOneSurcharge>
+        <TrailersFactor>1</TrailersFactor>
+        <Premium>0</Premium>
+      </CommercialAutoVehicleUninsuredMotoristCoverage>  
+      <CommercialAutoVehicleOtherThanCollisionCoverage> 
+        <CoverageType>ACV</CoverageType>  
+        <Deductible>100</Deductible>  
+        <OriginalCostNew>50000</OriginalCostNew>
+        <LookupTruckOtherThanCollisionCostNewRelativityFactor TempVariable="true">1.55</LookupTruckOtherThanCollisionCostNewRelativityFactor>
+        <CostNewRelativity>1.55</CostNewRelativity>
+        <DeductibleRelativity>-0.28</DeductibleRelativity>
+        <TruckOver90000Factor>0</TruckOver90000Factor>
+        <ageGroup TempVariable="true">6</ageGroup>
+        <LookupTruckOtherThanCollisionAgeGroupRelativityFactor TempVariable="true">0.8</LookupTruckOtherThanCollisionAgeGroupRelativityFactor>
+        <AgeGroupRelativity>0.8</AgeGroupRelativity>
+        <lcmPhysicalDamage TempVariable="true">1.0</lcmPhysicalDamage>
+        <supplementaryType TempVariable="true"></supplementaryType>
+        <territory TempVariable="true"></territory>
+        <BaseCoverageType>Comprehensive</BaseCoverageType>
+        <LookupTruckOtherThanCollisionBaseRate TempVariable="true">0</LookupTruckOtherThanCollisionBaseRate>
+        <PreliminaryBaseRateFromTable>0</PreliminaryBaseRateFromTable>
+        <territoryFactor TempVariable="true">0</territoryFactor>
+        <PreliminaryBaseRate>0.000</PreliminaryBaseRate>
+        <BasePremium>0</BasePremium>
+        <FleetFactor>1</FleetFactor>
+        <physicalDamageCombinedRatingFactor TempVariable="true">1.75</physicalDamageCombinedRatingFactor>
+        <AdditionalCoverageFactor>1</AdditionalCoverageFactor>
+        <Premium>0</Premium>
+      </CommercialAutoVehicleOtherThanCollisionCoverage>  
+      <CommercialAutoVehicleCollisionCoverage> 
+        <CoverageType>ACV</CoverageType>  
+        <Deductible>250</Deductible>  
+        <VehicleType>Truck</VehicleType>
+        <physicalDamageCombinedRatingFactor TempVariable="true">1.75</physicalDamageCombinedRatingFactor>
+        <parentDumpingRelativity TempVariable="true">1</parentDumpingRelativity>
+        <OriginalCostNew TempVariable="true">50000</OriginalCostNew>
+        <LookupTruckCollisionCostNewRelativity TempVariable="true">1.9</LookupTruckCollisionCostNewRelativity>
+        <CostNewRelativity>1.9</CostNewRelativity>
+        <DeductibleRelativity>-0.065</DeductibleRelativity>
+        <TruckOver90000Factor>0</TruckOver90000Factor>
+        <ageGroup TempVariable="true">6</ageGroup>
+        <AgeGroup TempVariable="true">6</AgeGroup>
+        <AgeGroupRelativity>0.8</AgeGroupRelativity>
+        <LCMPhysicalDamage TempVariable="true">1.0</LCMPhysicalDamage>
+        <Territory TempVariable="true">041</Territory>
+        <PublicTransportationGroup TempVariable="true"></PublicTransportationGroup>
+        <SupplementaryType TempVariable="true"></SupplementaryType>
+        <garagingZone TempVariable="true"></garagingZone>
+        <GaragingZone TempVariable="true"></GaragingZone>
+        <farthestTerminalZone TempVariable="true"></farthestTerminalZone>
+        <FarthestTerminalZone TempVariable="true"></FarthestTerminalZone>
+        <PreliminaryBaseRateFromTable>142.0</PreliminaryBaseRateFromTable>
+        <PreliminaryBaseRate>142.000</PreliminaryBaseRate>
+        <BasePremium>223</BasePremium>
+        <FleetFactor>1</FleetFactor>
+        <AccidentPreventionDiscountFactor>0.9</AccidentPreventionDiscountFactor>
+        <AuxillaryRunningLampsDiscountFactor>1</AuxillaryRunningLampsDiscountFactor>
+        <Premium>351</Premium>
+      </CommercialAutoVehicleCollisionCoverage>  
+      <CommercialAutoLawEnforcementFee> 
+        <LawEnforcementFeeApplies>Yes</LawEnforcementFeeApplies>  
+        <LawEnforcementFee>5.0</LawEnforcementFee>
+        <Premium>5</Premium>
+      </CommercialAutoLawEnforcementFee>  
+      <Premium>805</Premium>
+      <RatingPrimaryClassCode>11</RatingPrimaryClassCode>
+      <ClassCodeNumeric>11.0</ClassCodeNumeric>
+      <PhysicalDamagePrimaryRatingFactor>1.0</PhysicalDamagePrimaryRatingFactor>
+      <SecondaryClassCodeNumeric>2.0</SecondaryClassCodeNumeric>
+      <PhysicalDamageSecondaryRatingFactor>0.75</PhysicalDamageSecondaryRatingFactor>
+      <PhysicalDamageCombinedRatingFactor>1.75</PhysicalDamageCombinedRatingFactor>
+      <DumpingRelativity>1</DumpingRelativity>
+      <year TempVariable="true">2013</year>
+      <AgeGroup>6</AgeGroup>
+      <LiabilityPrimaryRatingFactor>1.0</LiabilityPrimaryRatingFactor>
+      <LiabilitySecondaryRatingFactor>0.75</LiabilitySecondaryRatingFactor>
+      <LiabilityCombinedRatingFactor>1.75</LiabilityCombinedRatingFactor>
+      <TerritoryFactor>1</TerritoryFactor>
+    </CommercialAutoTruck>  
+    <Premium>805</Premium>
+    <LCMPhysicalDamage>1.0</LCMPhysicalDamage>
+    <LCMLiability>1.0</LCMLiability>
+  </CommercialAuto>  
+</Policy>

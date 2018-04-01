@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SRERequest xmlns:rating="http://mmpnc.com/rating"> 
+  <RequestHeader> 
+    <RequestID>1002201378</RequestID>  
+    <RequestDate>2014-01-01T00:00:00</RequestDate>  
+    <UserID>BIDADMIN</UserID>  
+    <Password>BIDADMIN</Password> 
+  </RequestHeader>  
+  <LineOfBusiness>BOP</LineOfBusiness>  
+  <SubLine>BOPPATC</SubLine>  
+  <Program>BOPPATC</Program>  
+  <RatingPhase>POST</RatingPhase>  
+  <PolicyCompany>4</PolicyCompany>  
+  <StateId>PA</StateId>  
+  <BusinessType>ALL</BusinessType>  
+  <ProductId>4D976FCF-3D2C-31BC-B7F1-4C16B819E472</ProductId>  
+  <TransactionType>Application</TransactionType>  
+  <ProspectID>1235</ProspectID>  
+  <State> 
+    <Id>PA</Id>  
+    <Name>Pennsylvania</Name> 
+  </State>  
+  <BOP> 
+    <Id>BOP1</Id>  
+    <QuoteNo>BPQ1005000</QuoteNo>  
+    <Exposure>50000</Exposure>  
+    <Payroll>0</Payroll>  
+    <NAICSCode>123456</NAICSCode>  
+    <TermCode>12</TermCode>  
+    <!-- Below value need to be provided by AssureStart FE -->  
+    <BusinessDesc>Concession Stand / Snack Bar</BusinessDesc>  
+    <!-- Above value need to be provided by AssureStart FE -->  
+    <Deposits>10000001</Deposits>  
+    <EffectiveDt>2014-01-14T00:00:00</EffectiveDt>  
+    <ExpirationDt>2015-01-14T00:00:00</ExpirationDt>  
+    <State>Pennsylvania</State>  
+    <YearsInBusiness>15</YearsInBusiness>  
+    <LegalEntity>Sole Proprietor</LegalEntity>  
+    <MedicalCovLimitPerPerson>10000</MedicalCovLimitPerPerson>  
+    <EachOccLimit>500,000</EachOccLimit>  
+    <IRPMApply>No</IRPMApply>  
+    <AggregateLimit>1,000,000</AggregateLimit>  
+    <StandardDeductible>1000</StandardDeductible>  
+    <AutomaticIncreasePct>8</AutomaticIncreasePct>  
+    <BOPLocation> 
+      <Id>Location1</Id>  
+      <PrimaryLocation>Y</PrimaryLocation>  
+      <State>TX</State>  
+      <UnitNumber>1</UnitNumber>  
+      <LocationType>Occupant</LocationType>  
+      <AddressID1>plot 28 Granvilee</AddressID1>  
+      <AddressID2>Alberton Street Fremon</AddressID2>  
+      <Occupancy>OWBLD</Occupancy>  
+      <City>Pittsburgh</City>  
+      <RatingTerritory>702</RatingTerritory>  
+      <OptionalDeductible>1,000</OptionalDeductible>  
+      <WindHailDeductible>Not Applicable</WindHailDeductible>  
+      <County>Allegheny</County>  
+      <EmployeeDishtyApply>Yes</EmployeeDishtyApply>  
+      <NumEmployees>2</NumEmployees>  
+      <FireProtectionClass>05</FireProtectionClass>  
+      <ZipCode>15201</ZipCode>  
+      <BOPStructure> 
+        <Id>Structure1</Id>  
+        <Area>1</Area>  
+        <NumOfStoriesInBldg/>  
+        <UnitNumber>1</UnitNumber>  
+        <YearBuilt>1999</YearBuilt>  
+        <ClassGroup>31</ClassGroup>  
+        <ConstructionType>Frame Construction</ConstructionType>  
+        <BuildingLimit>200000</BuildingLimit>  
+        <RateNumber>17</RateNumber>  
+        <Sprinklered>No</Sprinklered>  
+        <BldgCodeEffectivenessGrade>5</BldgCodeEffectivenessGrade>  
+        <!-- Below empty tag is needed for new Rating -->  
+        <ScoreCardFactors>
+          <LossFactor>1.049</LossFactor>
+          <YearFactor>0.935</YearFactor>
+          <CoverageTypeFactor>1.0</CoverageTypeFactor>
+          <BuildingAge>15</BuildingAge>
+          <BuildingAgeFactor>1.508</BuildingAgeFactor>
+          <TierScore>1.47906902</TierScore>
+          <ScoreTierNumber>46.0</ScoreTierNumber>
+          <TierFactor>0.942</TierFactor>
+        </ScoreCardFactors>  
+        <!-- Above empty tag is needed for new Rating -->  
+        <BOPClassification> 
+          <Id>Classification1</Id>  
+          <ClassCode>09061</ClassCode>  
+          <RateNumber>17</RateNumber>  
+          <ClassGroup>31</ClassGroup>  
+          <Exposure>50000</Exposure>  
+          <BusnPrsnlPropLimit>100000</BusnPrsnlPropLimit>  
+          <ClassPropertyType>Restaurant-Limited Cooking</ClassPropertyType>  
+          <ClassDescription>Concession Stands/Snack Bars</ClassDescription>  
+          <BOPClassificationValuablePapersCoverage> 
+            <Id>BOPClassificationValuablePapersCoverage</Id>  
+            <Limit>15000</Limit> 
+          </BOPClassificationValuablePapersCoverage>  
+          <BOPClassificationAccountsReceivableCoverage> 
+            <Id>BOPClassificationAccountsReceivableCoverage</Id>  
+            <Limit>15000</Limit> 
+          </BOPClassificationAccountsReceivableCoverage>  
+          <BOPClassificationBusnIncomeDependentPropCoverage> 
+            <Id>BOPClassificationBusnIncomeDependentPropCoverage</Id>  
+            <Limit>6000</Limit> 
+          </BOPClassificationBusnIncomeDependentPropCoverage>  
+          <BOPClassificationBPPTemporarilyInPortableStorageUnitsCoverage> 
+            <Id>BOPClassificationBPPTemporarilyInPortableStorageUnitsCoverage1</Id>  
+            <Limit>6000</Limit> 
+          </BOPClassificationBPPTemporarilyInPortableStorageUnitsCoverage>  
+          <BOPClassificationBusnPrsnlPropCoverage> 
+            <Id>BusnPrsnlPropCoverage</Id>  
+            <Premium>603</Premium>
+          </BOPClassificationBusnPrsnlPropCoverage>  
+          <BOPFoodContamination> 
+            <Id>FoodContamination</Id>  
+            <Limit>10100</Limit>  
+            <AddlAdvertisingExpenseLimit>3100</AddlAdvertisingExpenseLimit> 
+          </BOPFoodContamination>  
+          <BOPClassificationLiabMedExpensesBusnPrsnlPropCoverage> 
+            <Id>BOPStructureLiabMedExpensesBldgCoverage1</Id>  
+            <localTMF TempVariable="true">1.0</localTMF>
+            <LiabilityTMF>1.0</LiabilityTMF>
+            <classRated>true</classRated>
+            <bopPropDamageLiabDedFactor>1</bopPropDamageLiabDedFactor>
+            <LookupLiabMedExpensesAnnualGrossSalesRate>2.655</LookupLiabMedExpensesAnnualGrossSalesRate>
+            <BaseRate>2.655</BaseRate>
+            <ClassGroupFactor>1.0</ClassGroupFactor>
+            <eachOccLimit>500,000</eachOccLimit>
+            <prodCompOpsAggLimit>1,000,000</prodCompOpsAggLimit>
+            <aggLimit>1,000,000</aggLimit>
+            <LookupLiabIncrLimitFactor>1.032</LookupLiabIncrLimitFactor>
+            <IncrLimitFactor>1.032</IncrLimitFactor>
+            <FinalRate>3.080</FinalRate>
+            <RatingLimit>50</RatingLimit>
+            <Premium>154</Premium>
+          </BOPClassificationLiabMedExpensesBusnPrsnlPropCoverage>  
+          <BOPResidentialCleaningServices> 
+            <Id>BOPResidentialCleaningServices1</Id> 
+          </BOPResidentialCleaningServices>  
+          <BOPSpoilgCov> 
+            <Id>BOPSpoilgCov1</Id>  
+            <Limit>2500</Limit> 
+          </BOPSpoilgCov>  
+          <BOPCondoCommlUnitOwnersOptionalCovs> 
+            <Id>BOPCondoCommlUnitOwnersOptionalCovs1</Id>  
+            <BOPCondoCommlUnitOwnersOptionalLossAssmtCoverage> 
+              <Id>BOPCondoCommlUnitOwnersOptionalLossAssmtCoverage1</Id>  
+              <Limit>10000</Limit> 
+            </BOPCondoCommlUnitOwnersOptionalLossAssmtCoverage>  
+            <BOPCondoCommlUnitOwnersOptionalMiscRealPropCoverage> 
+              <Id>BOPCondoCommlUnitOwnersOptionalMiscRealPropCoverage1</Id>  
+              <Limit>10000</Limit> 
+            </BOPCondoCommlUnitOwnersOptionalMiscRealPropCoverage> 
+          </BOPCondoCommlUnitOwnersOptionalCovs>  
+          <BOPOptionalPerPersonMedExpnsLimit> 
+            <Id>BOPOptionalPerPersonMedExpnsLimit1</Id> 
+          </BOPOptionalPerPersonMedExpnsLimit>  
+          <BOPUtilitySrvcsDirectDamage> 
+            <Id>BOPUtilitySrvcsDirectDamage</Id>  
+            <Limit>10000</Limit>  
+            <!-- Added below attributes - needed for new Rating -->  
+            <CoveredProperty>Building</CoveredProperty>  
+            <CommunicationSupply>Public Utility-Including Overhead Communication Lines</CommunicationSupply>  
+            <PowerSupply>Public Utility-Including Overhead Power Transmission</PowerSupply>  
+            <WaterSupply>Public Utility</WaterSupply>  
+            <!-- Added below attributes - needed for new Rating -->  
+            <BOPUtilitySrvcsDirectDamageBldgCommunicationIncldgOverheadCoverage> 
+              <Id>BOPUtilitySrvcsDirectDamageBldgCommunicationIncldgOverheadCoverage</Id>  
+              <parentCoveredProperty>Building</parentCoveredProperty>
+              <coverage TempVariable="true">true</coverage>
+              <parentCommunicationSupply>Public Utility-Including Overhead Communication Lines</parentCommunicationSupply>
+              <LookupDirectDamageCommunicationSupplyRate>0.055</LookupDirectDamageCommunicationSupplyRate>
+              <BaseRate>0.055</BaseRate>
+              <LookupDirectDamageOverheadRate>0.02</LookupDirectDamageOverheadRate>
+              <OverheadRate>0.02</OverheadRate>
+              <Premium>7</Premium>
+            </BOPUtilitySrvcsDirectDamageBldgCommunicationIncldgOverheadCoverage>  
+            <BOPUtilitySrvcsDirectDamageBldgPowerIncldgOverheadCoverage> 
+              <Id>BOPUtilitySrvcsDirectDamageBldgPowerIncldgOverheadCoverage</Id>  
+              <parentCoveredProperty>Building</parentCoveredProperty>
+              <coverage TempVariable="true">true</coverage>
+              <parentPowerSupply>Public Utility-Including Overhead Power Transmission</parentPowerSupply>
+              <LookupDirectDamagePowerSupplyRate>0.055</LookupDirectDamagePowerSupplyRate>
+              <BaseRate>0.055</BaseRate>
+              <LookupDirectDamageOverheadRate>0.02</LookupDirectDamageOverheadRate>
+              <OverheadRate>0.02</OverheadRate>
+              <Premium>7</Premium>
+            </BOPUtilitySrvcsDirectDamageBldgPowerIncldgOverheadCoverage>  
+            <BOPUtilitySrvcsDirectDamageBldgWaterCoverage> 
+              <Id>BOPUtilitySrvcsDirectDamageBldgWaterCoverage</Id>  
+              <parentCoveredProperty>Building</parentCoveredProperty>
+              <parentWaterSupply>Public Utility</parentWaterSupply>
+              <BaseRate>0.055</BaseRate>
+              <Premium>5</Premium>
+            </BOPUtilitySrvcsDirectDamageBldgWaterCoverage>  
+            <BuildingLimit>10000</BuildingLimit>
+            <Premium>19</Premium>
+          </BOPUtilitySrvcsDirectDamage>  
+          <BOPUtilitySrvcsDirectDamage> 
+            <Id>BOPUtilitySrvcsDirectDamage</Id>  
+            <Limit>10000</Limit>  
+            <!-- Added below attributes - needed for new Rating -->  
+            <CoveredProperty>Business Personal Property</CoveredProperty>  
+            <CommunicationSupply>Public Utility-Including Overhead Communication Lines</CommunicationSupply>  
+            <PowerSupply>Public Utility-Including Overhead Power Transmission</PowerSupply>  
+            <WaterSupply>Public Utility</WaterSupply>  
+            <!-- Added below attributes - needed for new Rating -->  
+            <BOPUtilitySrvcsDirectDamageBusnPrsnlPropCommunicationIncldgOverheadCoverage> 
+              <Id>BOPUtilitySrvcsDirectDamageBusnPrsnlPropCommunicationIncldgOverheadCoverage</Id>  
+              <parentCoveredProperty>Business Personal Property</parentCoveredProperty>
+              <coverage TempVariable="true">true</coverage>
+              <parentCommunicationSupply>Public Utility-Including Overhead Communication Lines</parentCommunicationSupply>
+              <LookupDirectDamageCommunicationSupplyRate>0.07</LookupDirectDamageCommunicationSupplyRate>
+              <BaseRate>0.07</BaseRate>
+              <LookupDirectDamageOverheadRate>0.035</LookupDirectDamageOverheadRate>
+              <OverheadRate>0.035</OverheadRate>
+              <Premium>10</Premium>
+            </BOPUtilitySrvcsDirectDamageBusnPrsnlPropCommunicationIncldgOverheadCoverage>  
+            <BOPUtilitySrvcsDirectDamageBusnPrsnlPropPowerIncldgOverheadCoverage> 
+              <Id>BOPUtilitySrvcsDirectDamageBusnPrsnlPropPowerIncldgOverheadCoverage</Id>  
+              <parentCoveredProperty>Business Personal Property</parentCoveredProperty>
+              <coverage TempVariable="true">true</coverage>
+              <parentPowerSupply>Public Utility-Including Overhead Power Transmission</parentPowerSupply>
+              <LookupDirectDamagePowerSupplyRate>0.07</LookupDirectDamagePowerSupplyRate>
+              <BaseRate>0.07</BaseRate>
+              <LookupDirectDamageOverheadRate>0.035</LookupDirectDamageOverheadRate>
+              <OverheadRate>0.035</OverheadRate>
+              <Premium>10</Premium>
+            </BOPUtilitySrvcsDirectDamageBusnPrsnlPropPowerIncldgOverheadCoverage>  
+            <BOPUtilitySrvcsDirectDamageBusnPrsnlPropWaterCoverage> 
+              <Id>BOPUtilitySrvcsDirectDamageBusnPrsnlPropWaterCoverage</Id>  
+              <parentCoveredProperty>Business Personal Property</parentCoveredProperty>
+              <parentWaterSupply>Public Utility</parentWaterSupply>
+              <BaseRate>0.07</BaseRate>
+              <Premium>7</Premium>
+            </BOPUtilitySrvcsDirectDamageBusnPrsnlPropWaterCoverage>  
+            <Premium>27</Premium>
+            <BusnPrsnlPropLimit>10000</BusnPrsnlPropLimit>
+          </BOPUtilitySrvcsDirectDamage>  
+          <BOPUtilitySrvcsTimeElement> 
+            <Id>BOPUtilitySrvcsTimeElement</Id>  
+            <Limit>10000</Limit>  
+            <BOPUtilitySrvcsTimeElementCommunicationIncldgOverheadCoverage> 
+              <Id>BOPUtilitySrvcsTimeElementCommunicationIncldgOverheadCoverage</Id> 
+            </BOPUtilitySrvcsTimeElementCommunicationIncldgOverheadCoverage>  
+            <BOPUtilitySrvcsTimeElementPowerIncldgOverheadCoverage> 
+              <Id>BOPUtilitySrvcsTimeElementPowerIncldgOverheadCoverage</Id> 
+            </BOPUtilitySrvcsTimeElementPowerIncldgOverheadCoverage>  
+            <BOPUtilitySrvcsTimeElementWaterCoverage> 
+              <Id>BOPUtilitySrvcsTimeElementWaterCoverage</Id> 
+            </BOPUtilitySrvcsTimeElementWaterCoverage> 
+          </BOPUtilitySrvcsTimeElement>  
+          <Area>1</Area>
+          <LookupClassCode>09061</LookupClassCode>
+          <LookupRateNumber>17</LookupRateNumber>
+          <LookupRateNumberFactorBPP>2.451</LookupRateNumberFactorBPP>
+          <RateNumberFactorBPP>2.451</RateNumberFactorBPP>
+          <BusnPrsnlPropTMF>1.0</BusnPrsnlPropTMF>
+          <CMF>1.0</CMF>
+          <classRated>true</classRated>
+          <RatingExposureBasis>Annual Gross Sales</RatingExposureBasis>
+          <LookupClassGroup>31</LookupClassGroup>
+          <lcm>1.821</lcm>
+          <requiredDataProvided TempVariable="true">true</requiredDataProvided>
+          <terr>702</terr>
+          <LookupBusnPrsnlPropRate>0.301</LookupBusnPrsnlPropRate>
+          <BusnPrsnlPropRate>0.301</BusnPrsnlPropRate>
+          <WindstormOrHailExclBusnPrsnlPropFactor>0</WindstormOrHailExclBusnPrsnlPropFactor>
+          <constructionType>Frame Construction</constructionType>
+          <LookupConstructionTypeFactorBPP>1.0</LookupConstructionTypeFactorBPP>
+          <ConstructionTypeFactorBPP>1.0</ConstructionTypeFactorBPP>
+          <busnPrsnlimits>100000</busnPrsnlimits>
+          <LookUpBusnPrsnPropLimitofInsuranceRelativityFactor>0.762</LookUpBusnPrsnPropLimitofInsuranceRelativityFactor>
+          <BusnPersonalPropertyLimitOfInsuranceRelativityFactor>0.762</BusnPersonalPropertyLimitOfInsuranceRelativityFactor>
+          <LookupPublicProtectionClassFactor>1.0</LookupPublicProtectionClassFactor>
+          <PublicProtectionFactorBPP>1.0</PublicProtectionFactorBPP>
+          <SprinkleredFactorBPP>1</SprinkleredFactorBPP>
+          <FinalBusnPrsnlPropRate>0.603</FinalBusnPrsnlPropRate>
+        </BOPClassification>  
+        <BOPStructureBuildingCoverage> 
+          <Id>BOPStructureBuildingCoverage1</Id>  
+          <Premium>1130</Premium>
+        </BOPStructureBuildingCoverage>  
+        <BOPStructureTenantsFireLiabCoverage> 
+          <Id>BOPStructureTenantsFireLiabilityCoverage1</Id>  
+          <Limit>500000</Limit> 
+        </BOPStructureTenantsFireLiabCoverage>  
+        <BOPOrdinanceOrLawCov> 
+          <Id>BOPOrdinanceOrLawCov1</Id>  
+          <!-- Required for New Rating -->  
+          <Coverage>Coverage 1 with Coverages 2 and 3 Combined</Coverage>  
+          <!-- above Required for New Rating -->  
+          <BOPOrdinanceOrLawCov1Coverage> 
+            <Id>BOPOrdinanceOrLawCov1Coverage1</Id>  
+            <Factor>0.15</Factor>
+            <Premium>170</Premium>
+          </BOPOrdinanceOrLawCov1Coverage>  
+          <BOPOrdinanceOrLawCov2And3Coverage> 
+            <Id>BOPOrdinanceOrLawCov2And3Coverage1</Id>  
+            <Limit>100000</Limit>  
+            <!-- Required for New Rating -->  
+            <Coverage>Coverage 1 with Coverages 2 and 3 Combined</Coverage>  
+            <!-- above Required for New Rating -->  
+            <workingLimit>900</workingLimit>
+            <Premium>508</Premium>
+          </BOPOrdinanceOrLawCov2And3Coverage>  
+          <Premium>678</Premium>
+        </BOPOrdinanceOrLawCov>  
+        <BOPOutdoorPropertyCoverage> 
+          <Id>BOPOutdoorPropertyCoverage1</Id>  
+          <Limit>25000</Limit> 
+        </BOPOutdoorPropertyCoverage>  
+        <BOPLossPayable> 
+          <Id>BOPLossPayable1</Id> 
+        </BOPLossPayable>  
+        <BOPStructurePersonalEffects> 
+          <Id>BOPStructurePersonalEffects1</Id> 
+        </BOPStructurePersonalEffects>  
+        <BOPBusnIncomeAndExtraExpenseCovRevisedPerOfIndemnity> 
+          <Id>BOPBusnIncomeAndExtraExpenseCovRevisedPerOfIndemnity1</Id> 
+        </BOPBusnIncomeAndExtraExpenseCovRevisedPerOfIndemnity>  
+        <BOPStructureIncreasedCostConstruction> 
+          <Id>BOPStructureIncreasedCostConstruction1</Id> 
+        </BOPStructureIncreasedCostConstruction>  
+        <PctOwnerOccupied>Over 10%</PctOwnerOccupied>
+        <PropertyType>Restaurant-Limited Cooking</PropertyType>
+        <maxClassificationArea>1</maxClassificationArea>
+        <maxRateNumberFactor>2.451</maxRateNumberFactor>
+        <ClassCode>09061</ClassCode>
+        <ClassDescription>Concession Stands/Snack Bars</ClassDescription>
+        <BIDSegment>Restaurants</BIDSegment>
+        <ScoreCardTierFactor>0.942</ScoreCardTierFactor>
+        <TierFactor>0.630</TierFactor>
+        <requiredDataProvided TempVariable="true">true</requiredDataProvided>
+        <RatingTerritory>702</RatingTerritory>
+        <BuildingTMF>1.0</BuildingTMF>
+        <RatingPropertyType>Restaurant-Limited Cooking</RatingPropertyType>
+        <CMF>1.0</CMF>
+        <LookupBuildingRate>0.208</LookupBuildingRate>
+        <BuildingRate>0.208</BuildingRate>
+        <WindstormOrHailExclBldgFactor>0</WindstormOrHailExclBldgFactor>
+        <RateNumberFactorBldg>2.331</RateNumberFactorBldg>
+        <LookupConstructionTypeFactorBldg>1.0</LookupConstructionTypeFactorBldg>
+        <ConstructionTypeFactorBldg>1.0</ConstructionTypeFactorBldg>
+        <bldgTerr>702</bldgTerr>
+        <LookUpBuildingLimitofInsuranceRelativityGroup>C</LookUpBuildingLimitofInsuranceRelativityGroup>
+        <BldgLimitOfInsuranceRelativityGroup>C</BldgLimitOfInsuranceRelativityGroup>
+        <LookUpBuildingLimitofInsuranceRelativityFactor>1.0</LookUpBuildingLimitofInsuranceRelativityFactor>
+        <BldgLimitOfInsuranceRelativityFactor>1.0</BldgLimitOfInsuranceRelativityFactor>
+        <fireProtectionClass>05</fireProtectionClass>
+        <LookupPublicProtectionClassFactor>1.085</LookupPublicProtectionClassFactor>
+        <PublicProtectionFactorBldg>1.085</PublicProtectionFactorBldg>
+        <BldgCodeGrade>5</BldgCodeGrade>
+        <LookupBldgCodeEffectivenessGradeFactor>0.98</LookupBldgCodeEffectivenessGradeFactor>
+        <BldgCodeEffectivenessGradeFactor>0.98</BldgCodeEffectivenessGradeFactor>
+        <SprinkleredFactorBldg>1</SprinkleredFactorBldg>
+        <DedFactor>0.974</DedFactor>
+        <FinalBuildingRate>0.565</FinalBuildingRate>
+        <FunctlBldgFactor>1</FunctlBldgFactor>
+      </BOPStructure>  
+      <BOPAddlInsdGrantorOfFranchiseEndorsement> 
+        <Id>BOPAddlInsdGrantorOfFranchiseEndorsement1</Id> 
+      </BOPAddlInsdGrantorOfFranchiseEndorsement>  
+      <BOPLocationFireDeptServiceCoverage> 
+        <Id>BOPLocationFireDeptServiceCoverage</Id>  
+        <Limit>5000</Limit> 
+      </BOPLocationFireDeptServiceCoverage>  
+      <BOPLocationMoneySecuritiesOffPremCoverage> 
+        <Id>BOPLocationMoneySecuritiesOffPremCoverage</Id>  
+        <Limit>10000</Limit> 
+      </BOPLocationMoneySecuritiesOffPremCoverage>  
+      <BOPLocationMoneySecuritiesOnPremCoverage> 
+        <Id>BOPLocationMoneySecuritiesOnPremCoverage</Id>  
+        <Limit>10000</Limit> 
+      </BOPLocationMoneySecuritiesOnPremCoverage>  
+      <BOPLocationOutdoorSignsCoverage> 
+        <Id>OutdoorSignsCoverage1</Id>  
+        <Limit>2500</Limit> 
+      </BOPLocationOutdoorSignsCoverage>  
+      <BOPWaterBackUpAndSumpOverflowLocation> 
+        <Id>BOPWaterBackUpAndSumpOverflowLocation</Id>  
+        <BodilyInjuryExtraExpenseAnnualAggregateLimit>5000</BodilyInjuryExtraExpenseAnnualAggregateLimit>  
+        <CoveredPropertyAnnualAggregateLimit>5000</CoveredPropertyAnnualAggregateLimit>  
+        <ManualPremium>5000</ManualPremium>  
+        <Limit>5000</Limit> 
+      </BOPWaterBackUpAndSumpOverflowLocation>  
+      <BOPAddlInsdManagersLessorsPremises> 
+        <Id>BOPAddlInsdManagersLessorsPremises</Id>  
+        <CountAddlInsd/>  
+        <BOPAddlInsdManagersLessorsPremisesDetail> 
+          <Id>BOPAddlInsdManagersLessorsPremisesDetail</Id>  
+          <TypeRisk>Other</TypeRisk>  
+          <!--Hardcoded --> 
+        </BOPAddlInsdManagersLessorsPremisesDetail> 
+      </BOPAddlInsdManagersLessorsPremises>  
+      <BOPAddlInsdLessorsLeasedEquipmt> 
+        <Id>BOPAddlInsdLessorsLeasedEquipmt1</Id>  
+        <BOPAddlInsdLessorsLeasedEquipmtDetail> 
+          <Id>BOPAddlInsdLessorsLeasedEquipmtDetail</Id>  
+          <TypeRisk>Other</TypeRisk>  
+          <!--Hardcoded --> 
+        </BOPAddlInsdLessorsLeasedEquipmtDetail> 
+      </BOPAddlInsdLessorsLeasedEquipmt>  
+      <BOPRestaurants> 
+        <Id>BOPRestaurants1</Id>  
+        <BOPRestaurantsRestaurantsCoverage> 
+          <Id>BOPRestaurantsRestaurantsCoverage1</Id> 
+        </BOPRestaurantsRestaurantsCoverage> 
+      </BOPRestaurants>  
+      <WindHailFactor>1</WindHailFactor>
+      <TotAmountInsurance>300000</TotAmountInsurance>
+      <classBusnPrsnlPropLimit>100000</classBusnPrsnlPropLimit>
+      <classVltnBPPLimit>0</classVltnBPPLimit>
+      <LookupOptnlFixedDedFactorWithLOI>0.974</LookupOptnlFixedDedFactorWithLOI>
+      <OptnlDedFactor>0.974</OptnlDedFactor>
+      <DedFactor>0.974</DedFactor>
+    </BOPLocation>  
+    <BOPAddlInsdVendors> 
+      <Id>BOPAddlInsdVendors1</Id>  
+      <BOPAddlInsdVendorsDetail> 
+        <Id>BOPAddlInsdVendorsDetail1</Id> 
+      </BOPAddlInsdVendorsDetail>  
+      <BOPAddlInsdVendorsDetail> 
+        <Id>BOPAddlInsdVendorsDetail2</Id> 
+      </BOPAddlInsdVendorsDetail> 
+    </BOPAddlInsdVendors>  
+    <BOPElectronicDataCoverage> 
+      <Id>BOPElectronicDataCoverage</Id>  
+      <Limit>25000</Limit> 
+    </BOPElectronicDataCoverage>  
+    <BOPElectronicCommerce> 
+      <Id>BOPElectronicCommerce</Id>  
+      <Limit>25000</Limit>  
+      <Ded>500</Ded> 
+    </BOPElectronicCommerce>  
+    <BOPFuneralDirectorsProflLiab> 
+      <Id>BOPFuneralDirectorsProflLiab1</Id>  
+      <NumFuneralCremation>100</NumFuneralCremation> 
+    </BOPFuneralDirectorsProflLiab>  
+    <BOPPrintersErrorsOmissions> 
+      <Id>BOPPrintersErrorsOmissions1</Id> 
+    </BOPPrintersErrorsOmissions>  
+    <BOPBeautySalonsProflLiab> 
+      <Id>BOPBeautySalonsProflLiab1</Id>  
+      <NumBeautician>100</NumBeautician> 
+    </BOPBeautySalonsProflLiab>  
+    <BOPBarbersBeauticiansProflLiab> 
+      <Id>BOPBarbersBeauticiansProflLiab1</Id>  
+      <NumBarber>100</NumBarber> 
+    </BOPBarbersBeauticiansProflLiab>  
+    <BOPOpticalHearingAid> 
+      <Id>BOPOpticalHearingAid</Id>  
+      <NumOptician>10</NumOptician>  
+      <NumHearingSpecialist>10</NumHearingSpecialist> 
+    </BOPOpticalHearingAid>  
+    <BOPInterruptionComputerOpsCoverage> 
+      <Id>BOPInterruptionComputerOpsCoverage1</Id>  
+      <Limit>25000</Limit> 
+    </BOPInterruptionComputerOpsCoverage>  
+    <BOPVeterinariansProflLiab> 
+      <Id>BOPVeterinariansProflLiab1</Id>  
+      <NumVeterinarians>25</NumVeterinarians> 
+    </BOPVeterinariansProflLiab>  
+    <BOPEmployeeDishtyCoverage> 
+      <Id>BOPEmployeeDishtyCoverage1</Id>  
+      <Limit>10000</Limit> 
+    </BOPEmployeeDishtyCoverage>  
+    <BOPAutomaticIncreaseCoverage> 
+      <Id>BOPAutomaticIncreaseCoverage1</Id> 
+    </BOPAutomaticIncreaseCoverage>  
+    <BOPBusnIncomeOrdinaryPayrollBldgCoverage> 
+      <Id>BOPBusnIncomeOrdinaryPayrollBldgCoverage1</Id> 
+    </BOPBusnIncomeOrdinaryPayrollBldgCoverage>  
+    <BOPCondoCommlUnitOwnersCov> 
+      <Id>BOPCondoCommlUnitOwnersCov1</Id> 
+    </BOPCondoCommlUnitOwnersCov>  
+    <BOPFireExtinguisherSystemsRechargeExpense> 
+      <Id>BOPFireExtinguisherSystemsRechargeExpense1</Id> 
+    </BOPFireExtinguisherSystemsRechargeExpense>  
+    <BOPNewlyAcquiredBuilding> 
+      <Id>BOPNewlyAcquiredBuilding1</Id> 
+    </BOPNewlyAcquiredBuilding>  
+    <BOPNewlyAcquiredBPP> 
+      <Id>BOPNewlyAcquiredBPP1</Id> 
+    </BOPNewlyAcquiredBPP>  
+    <BOPPersonalPropertyPremises> 
+      <Id>BOPPersonalPropertyPremises1</Id> 
+    </BOPPersonalPropertyPremises>  
+    <BOPForgeryAlterationCoverage> 
+      <Id>BOPForgeryAlterationCoverage1</Id>  
+      <Limit/> 
+    </BOPForgeryAlterationCoverage>  
+    <BOPEmpBenefitsLiabCov> 
+      <Id>BOPEmpBenefitsLiabCov1</Id> 
+    </BOPEmpBenefitsLiabCov>  
+    <BOPEmploymentRelatedPracticesLiabilityCov> 
+      <Id>BOPEmploymentRelatedPracticesLiabilityCov</Id>  
+      <CoverageType>Restaurant</CoverageType>  
+      <AggLimit>25000</AggLimit>  
+      <Ded>5,000</Ded>  
+      <NumEmployees>2</NumEmployees> 
+    </BOPEmploymentRelatedPracticesLiabilityCov>  
+    <BOPPhotography> 
+      <Id>BOPPhotograhy1</Id>  
+      <ScheduledItems>Y</ScheduledItems>  
+      <BOPPhotographyDetail> 
+        <Id>BOPPhotographyDetail1</Id>  
+        <LimitOfInsurance>10000</LimitOfInsurance> 
+      </BOPPhotographyDetail> 
+    </BOPPhotography>  
+    <BOPPhotography> 
+      <Id>BOPPhotograhy1</Id>  
+      <ScheduledItems>Y</ScheduledItems>  
+      <BOPPhotographyDetail> 
+        <Id>BOPPhotographyDetail1</Id>  
+        <LimitOfInsurance>10000</LimitOfInsurance>  
+        <UnitNumber>1</UnitNumber>  
+        <DescriptionOfEquipment>Camera</DescriptionOfEquipment>  
+        <Make>Nikon</Make>  
+        <ModelNumber>N500</ModelNumber> 
+      </BOPPhotographyDetail> 
+    </BOPPhotography>  
+    <BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage> 
+      <Id>PhotoWorld1</Id> 
+    </BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage>  
+    <Insured> 
+      <CustomerName>BID3 TEST</CustomerName>  
+      <CustomerId>40001864</CustomerId>  
+      <Role/>  
+      <FirstName>Albert Vincent</FirstName>  
+      <LastName>Fernanades</LastName>  
+      <BusinessPhone>2344564564</BusinessPhone>  
+      <EmailID>albert@ALLIANCEPLUS.COM</EmailID>  
+      <Address1>100 lane 4 Main Street</Address1>  
+      <Country>US</Country>  
+      <City>Mansfield</City>  
+      <State>TX</State>  
+      <ZipPostalCode>76063</ZipPostalCode> 
+    </Insured>  
+    <QuestionsModel> 
+      <QuestionDet> 
+        <QuestionNo>BOPPA_Q3</QuestionNo>  
+        <QuestionAns>02/2012</QuestionAns>  
+        <QuestionInstance>2</QuestionInstance> 
+      </QuestionDet>  
+      <QuestionDet> 
+        <QuestionNo>BOPPA_Q2</QuestionNo>  
+        <QuestionAns>5000</QuestionAns>  
+        <QuestionInstance>2</QuestionInstance> 
+      </QuestionDet>  
+      <QuestionDet> 
+        <QuestionNo>BOPPA_Q1</QuestionNo>  
+        <QuestionAns>0</QuestionAns>  
+        <QuestionInstance>1</QuestionInstance> 
+      </QuestionDet>  
+      <QuestionDet> 
+        <QuestionNo>BOPPA_Q3</QuestionNo>  
+        <QuestionAns>01/2010</QuestionAns>  
+        <QuestionInstance>1</QuestionInstance> 
+      </QuestionDet>  
+      <QuestionDet> 
+        <QuestionNo>BOPPA_Q2</QuestionNo>  
+        <QuestionAns>1000</QuestionAns>  
+        <QuestionInstance>1</QuestionInstance> 
+      </QuestionDet>  
+      <QuestionDet> 
+        <QuestionNo>BOPPA_Q6</QuestionNo>  
+        <QuestionAns>No</QuestionAns>  
+        <QuestionInstance>1</QuestionInstance> 
+      </QuestionDet>  
+      <QuestionDet> 
+        <QuestionNo>BOPPA_Q13</QuestionNo>  
+        <QuestionAns>LIAB</QuestionAns>  
+        <QuestionInstance>1</QuestionInstance> 
+      </QuestionDet>  
+      <QuestionDet> 
+        <QuestionNo>BOPPA_Q13</QuestionNo>  
+        <QuestionAns>PWR</QuestionAns>  
+        <QuestionInstance>2</QuestionInstance> 
+      </QuestionDet>  
+      <QuestionDet> 
+        <QuestionNo>BOPPA_Q13</QuestionNo>  
+        <QuestionAns>LIAB</QuestionAns>  
+        <QuestionInstance>3</QuestionInstance> 
+      </QuestionDet> 
+    </QuestionsModel>  
+    <ScoreDetails> 
+      <ExperianBin>30</ExperianBin>  
+      <RawScore>30</RawScore>  
+      <ScoreFlag>N</ScoreFlag> 
+    </ScoreDetails>  
+    <AgendaDetail> 
+      <Agenda>OnlineForms</Agenda>  
+      <RuleID/> 
+    </AgendaDetail>  
+    <AgendaDetail> 
+      <Agenda>Questions</Agenda>  
+      <RuleID>QuestionCode1</RuleID> 
+    </AgendaDetail>  
+    <ProdCompldOpsAggregateLimit>1,000,000</ProdCompldOpsAggregateLimit>
+    <PropDamageLiabDedType>Not Applicable</PropDamageLiabDedType>
+    <BuildingLCM>1.821</BuildingLCM>
+    <BusnPrsnlPropLCM>1.821</BusnPrsnlPropLCM>
+    <LiabilityLCM>1.821</LiabilityLCM>
+    <losses TempVariable="true">0</losses>
+    <TotalLosses>0</TotalLosses>
+    <PriorLossRelativity>1</PriorLossRelativity>
+    <ResponsiblePayerRelativity>1</ResponsiblePayerRelativity>
+    <Variable1>1</Variable1>
+    <Variable2>1</Variable2>
+    <MultiPolicyDiscount>1</MultiPolicyDiscount>
+    <LoyaltyDiscount>1</LoyaltyDiscount>
+    <ResponsibleShopperDiscount>1.0</ResponsibleShopperDiscount>
+    <LossFreeDiscount>0.98</LossFreeDiscount>
+    <YearsInBusinessFactor>0.935</YearsInBusinessFactor>
+    <ModelTierNumber>23.0</ModelTierNumber>
+    <ModelTierFactor>0.669</ModelTierFactor>
+    <IRPMFactor>1</IRPMFactor>
+    <PropDamageLiabDedFactor>1</PropDamageLiabDedFactor>
+    <CommercialPropertyLCM>1.0</CommercialPropertyLCM>
+  </BOP>  
+  <QuoteDays>13</QuoteDays>
+</SRERequest>

@@ -1,0 +1,202 @@
+<SRERequest>
+   <PolicyType>WorkersComp</PolicyType>
+   <PolicyNo>1</PolicyNo>
+   <RenewNo>0</RenewNo>
+   <State/>
+   <Premium>0.0</Premium>
+   <EffDate>2013-12-31T12:00:00</EffDate>
+   <ExpDate>2014-12-31T12:00:00</ExpDate>
+   <ProductId>2806104D-444C-3A12-A12C-4D0C406238D2</ProductId>
+   <WorkersComp>
+      <YearsInBusiness>10</YearsInBusiness>
+      <SICCode>1234</SICCode>
+      <LegalEntity>Association</LegalEntity>
+      <GoverningState>Texas</GoverningState>
+      <RatingIteration>1</RatingIteration>
+      <XMLRatingRequest>Yes</XMLRatingRequest>
+
+      <WorkersCompEmployersLiabilityCoverage>
+         <EachAccidentLimit>1,000,000</EachAccidentLimit>
+         <DiseasePolicyLimit>1,000,000</DiseasePolicyLimit>
+         <DiseaseEachEmployeeLimit>1,000,000</DiseaseEachEmployeeLimit>
+      </WorkersCompEmployersLiabilityCoverage>
+
+      <EmployersLiabilityOnlyPolicy>No</EmployersLiabilityOnlyPolicy>
+
+      <DeductibleType>Negotiated Deductible</DeductibleType>
+      <NegotiatedDeductibleAmount>2500</NegotiatedDeductibleAmount>
+      <WorkersCompSmallDeductibleCoverage>
+         <NegotiatedDeductibleFactor>0.02</NegotiatedDeductibleFactor>
+      </WorkersCompSmallDeductibleCoverage>
+      
+      <AdmiraltyLimit>500,000</AdmiraltyLimit>
+      <WorkersCompAdmiraltyIncrLimitsCoveragePostARD/>
+      <WorkersCompAdmiraltyIncrLimitsCoverage/>
+
+      <FederalEmployersLiabilityActCoverageLimit>Not Applicable</FederalEmployersLiabilityActCoverageLimit>
+      
+      <OffshoreIndicator>Yes</OffshoreIndicator>
+      <OffshoreLowerLimit>100,000</OffshoreLowerLimit>
+      <OffshoreUpperLimit>500,000</OffshoreUpperLimit>
+      <WorkersCompOilGasOrOtherMineralOperationsOnOrOverWaterCoverageIncrLimitsCoveragePostARD/>
+      <WorkersCompOilGasOrOtherMineralOperationsOnOrOverWaterCoverageIncrLimitsCoverage/>
+
+	  <ExperienceModIndicator>Yes</ExperienceModIndicator>
+      <WorkersCompExperienceModCoverage>
+      	<ExperienceMod>0.95</ExperienceMod>      
+      </WorkersCompExperienceModCoverage>
+      
+      <NegotiatedExperienceModIndicator>No</NegotiatedExperienceModIndicator>
+      <ModeledRatingFactorIndicator>No</ModeledRatingFactorIndicator>
+      <ScheduleModIndicator>No</ScheduleModIndicator>
+      <NetworkCreditIndicator>Yes</NetworkCreditIndicator>
+      
+      <WorkersCompNetworkCreditCoverage>
+      	<Factor>0.96</Factor>
+      </WorkersCompNetworkCreditCoverage>
+      
+      <WorkersCompEmployersLiabIncrLimitsCoveragePostARD/>
+      <WorkersCompEmployersLiabIncrLimitsCoverage/>
+
+      <WorkersCompPremiumDiscountCoverage/>
+
+      <WorkersCompEmployersLiabilityCoverage/>
+      <WorkersCompEmployersLiabilityCoveragePostARD/>
+      
+      <WorkersCompMaritimeCoverageEndorsementA>
+      	<WorkersCompMaritimeCoverageEndorsementADetail/>
+      </WorkersCompMaritimeCoverageEndorsementA>
+      
+      <WorkersCompPremiumDiscountEndorsement/>
+      
+      <WorkersCompPremiumDueDateEndorsement/>
+      
+      <WorkersCompAmendatoryEndorsement/>
+      
+      <WorkersCompHealthCareNetworkEndorsement/>
+      
+      <WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsement>
+      	<WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsementDetail>
+      		<WaiverType>Blanket</WaiverType>
+      		<PersonOrganization>WC_TX_09072013</PersonOrganization>
+      		<Operations>Dredging</Operations>
+      		<ManualPremium>223</ManualPremium>
+      		<WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsementDetailCoveragePostARD/>
+      		<WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsementDetailCoverage/>
+      	</WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsementDetail>
+      </WorkersCompWaiverOfOurRightToRecoverFromOthersEndorsement>
+      
+      <WorkersCompWorkersCompensationAndEmployersLiabilityInsurancePolicyA/>
+      
+      <WorkersCompLocation>
+      	<UnitNumber>1</UnitNumber>
+      	<City>Alice</City>
+        <County>Jim Wells</County>
+        <ZipCode>78332</ZipCode>
+        
+         <WorkersCompClass>
+            <UnitNumber>1</UnitNumber>
+            <SelectBy>Class Code</SelectBy>
+            <ClassCodeForClassDescription>7046</ClassCodeForClassDescription>
+            <ClassDescriptionByClassCode>Vessels - not self-propelled-Program I</ClassDescriptionByClassCode>
+            
+            <WorkersCompClassClassCodeCoveragePostARD/>
+            <WorkersCompClassClassCodeCoverage/>
+            
+            <IfAny>No</IfAny>
+            <Payroll>4000000</Payroll>
+            
+            <WorkersCompSupplementaryDiseasePremiumCoverage>
+               <SupplementaryDiseaseType>Not Applicable</SupplementaryDiseaseType>
+               <SupplementalDiseaseLoading>Yes</SupplementalDiseaseLoading>
+               <ManualPremium>250</ManualPremium>
+            </WorkersCompSupplementaryDiseasePremiumCoverage>
+            
+            <WorkersCompSupplementalDiseasePremiumCoveragePostARD/>
+            
+            <WorkersCompClassCoverage>
+               <USLHAdjustment>No</USLHAdjustment>
+            </WorkersCompClassCoverage>
+            
+            <OilGasMineralAdjustment>No</OilGasMineralAdjustment>
+            
+            <WorkersCompClassTransportationWagesMaintenanceAndCureCoverage>
+               <TWMCAdjustment>Yes</TWMCAdjustment>
+               <TWMCRate>0.05</TWMCRate>
+            </WorkersCompClassTransportationWagesMaintenanceAndCureCoverage>
+            
+            <WorkersCompAdmiraltyCoverage/>
+            
+            <WorkersCompClassTransportationWagesMaintenanceAndCureCoveragePostARD/>
+         
+         </WorkersCompClass>
+         
+         <WorkersCompClass>
+            <UnitNumber>2</UnitNumber>
+            <SelectBy>Class Code</SelectBy>
+            <ClassCodeForClassDescription>1803</ClassCodeForClassDescription>
+            <ClassDescriptionByClassCode>Fiberglass Insulation Mfg And Drivers</ClassDescriptionByClassCode>
+            
+            <WorkersCompClassClassCodeCoveragePostARD/>
+            <WorkersCompClassClassCodeCoverage/>
+            
+            <DiseaseLoading>Remove</DiseaseLoading>
+
+            <IfAny>No</IfAny>
+            <Payroll>450000</Payroll>
+            
+            
+            <WorkersCompSupplementaryDiseasePremiumCoverage>
+               <SupplementaryDiseaseType>Not Applicable</SupplementaryDiseaseType>
+               <SupplementalDiseaseLoading>Yes</SupplementalDiseaseLoading>
+               <ManualPremium>350.0</ManualPremium>
+            </WorkersCompSupplementaryDiseasePremiumCoverage>
+            
+            <WorkersCompSupplementalDiseasePremiumCoveragePostARD/>
+            
+            <WorkersCompClassCoverage>
+               <USLHAdjustment>No</USLHAdjustment>
+            </WorkersCompClassCoverage>
+            
+            <OilGasMineralAdjustment>Yes</OilGasMineralAdjustment>
+            
+            <WorkersCompClassOilGasOrOtherMineralOperationsOnOrOverWaterCoverage>
+            	<ARateOil>0.02</ARateOil>
+            	<SubjectPayroll>500000</SubjectPayroll>
+            </WorkersCompClassOilGasOrOtherMineralOperationsOnOrOverWaterCoverage>
+            
+            <WorkersCompClassOilGasOrOtherMineralOperationsOnOrOverWaterCoveragePostARD/>
+            
+         </WorkersCompClass>
+         
+         <WorkersCompClass>
+            <UnitNumber>3</UnitNumber>
+            <SelectBy>Class Code</SelectBy>
+            <ClassCodeForClassDescription>5057</ClassCodeForClassDescription>
+            <ClassDescriptionByClassCode>Iron or Steel: Erection: Noc And Drivers</ClassDescriptionByClassCode>
+            
+            <WorkersCompClassClassCodeCoveragePostARD/>
+            <WorkersCompClassClassCodeCoverage/>
+            
+            <DiseaseLoading>Remove</DiseaseLoading>
+
+            <IfAny>No</IfAny>
+            <Payroll>50000</Payroll>
+            
+            
+            <WorkersCompSupplementaryDiseasePremiumCoverage>
+               <SupplementaryDiseaseType>Not Applicable</SupplementaryDiseaseType>
+               <SupplementaryDiseaseAdjustment>No</SupplementaryDiseaseAdjustment>
+            </WorkersCompSupplementaryDiseasePremiumCoverage>
+            
+            <WorkersCompClassCoverage>
+               <USLHAdjustment>No</USLHAdjustment>
+            </WorkersCompClassCoverage>
+            
+            <OilGasMineralAdjustment>No</OilGasMineralAdjustment>
+            
+         </WorkersCompClass>         
+         
+      </WorkersCompLocation>
+   </WorkersComp>
+</SRERequest>

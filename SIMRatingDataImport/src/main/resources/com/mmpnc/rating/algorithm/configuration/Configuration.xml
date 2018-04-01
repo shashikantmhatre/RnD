@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Configuration.xsd">
+  <IgnorePCH>
+    <Program>integerAmount</Program>
+    <Program>deductibleAmount</Program>
+    <Program>domainTableLookup</Program>
+    <Program>domainZipCodeTableLookup</Program>
+    <Program>domainCountyTableLookup</Program>
+  	<!-- 
+    <Program>BusnPrsnPropLimitOfInsRelativityFactor</Program>
+  	 -->
+  </IgnorePCH>
+  <ProgramPCH>
+    <Program>GetDeductible</Program>
+    <Program>Lookup.*\{.*</Program>
+  </ProgramPCH>
+</Configuration>

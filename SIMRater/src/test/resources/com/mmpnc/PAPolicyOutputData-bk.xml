@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rating="http://mmpnc.com/rating" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/com/mmpnc/policy/iso/vo/BasePolicySchema.xsd">  
+  <PolicyType>PA</PolicyType>  
+  <PolicyNo>123</PolicyNo>  
+  <RenewNo>0</RenewNo>  
+  <State> 
+    <Code>NY</Code> 
+  </State>  
+  <Premium>3260.78</Premium>  
+  <EffDate>2012-10-20T12:00:00</EffDate>  
+  <ExpDate>2013-10-20T12:00:00</ExpDate>  
+  <Ratebook>F740A2F9-1268-3F77-BA7F-242D554F65FA</Ratebook>  
+  <!-- 
+		Policy
+			PersonalAuto
+				ZipCode
+				State
+				Insured
+					Address
+				Vehicle
+					BodilyInjuryCoverage
+				Driver	
+	 -->  
+  <PersonalAuto> 
+    <Ratebook>F740A2F9-1268-3F77-BA7F-242D554F65FA</Ratebook>  
+    <Insured> 
+      <Name>Adrian D Meyer</Name>  
+      <Address> 
+        <Line1>7609 Maple Road</Line1>  
+        <ZipCode>21223</ZipCode>  
+        <State>MD</State> 
+      </Address> 
+    </Insured>  
+    <ZipCode>21223</ZipCode>  
+    <State>MD</State>  
+    <PaidInFull>Y</PaidInFull>  
+    <Vehicle> 
+      <Id>Veh1</Id>  
+      <Year>2011</Year>  
+      <Make>Honda</Make>  
+      <Model>CRV</Model>  
+      <Type>PPA</Type>  
+      <Color>Black</Color>  
+      <BusinessUse>N</BusinessUse>  
+      <HighPerformanceVehicle>Y</HighPerformanceVehicle>  
+      <Value>15,626-16,250</Value>  
+      <BodilyInjuryCoverage> 
+        <CoverageCode>BI</CoverageCode>  
+        <Limit>30/60</Limit>  
+        <zipCode TempVariable="true">21223</zipCode>
+        <BaseRate>877.0</BaseRate>
+        <VehicleFactor>1.0</VehicleFactor>
+        <assignedDriver TempVariable="true">Driver1</assignedDriver>
+        <InexperienceFactor>1</InexperienceFactor>
+        <RelativityFactor>1.25</RelativityFactor>
+        <DiscountRelativityFactor>1</DiscountRelativityFactor>
+        <ILF>1.0</ILF>
+        <FlatExpense>36.0</FlatExpense>
+        <PolicyTypeFactor>1</PolicyTypeFactor>
+        <ColorFactor>1.2</ColorFactor>
+        <Premium>1290.48</Premium>
+      </BodilyInjuryCoverage>  
+      <PropertyDamageCoverage> 
+        <CoverageCode>PD</CoverageCode>  
+        <Limit>15</Limit>  
+        <zipCode TempVariable="true">21223</zipCode>
+        <BaseRate>538.0</BaseRate>
+        <VehicleFactor>1.0</VehicleFactor>
+        <assignedDriver TempVariable="true">Driver1</assignedDriver>
+        <InexperienceFactor>1</InexperienceFactor>
+        <RelativityFactor>1.16</RelativityFactor>
+        <DiscountRelativityFactor>1</DiscountRelativityFactor>
+        <ILF>1.0</ILF>
+        <FlatExpense>43.0</FlatExpense>
+        <PolicyTypeFactor>1</PolicyTypeFactor>
+        <Premium>633.65</Premium>
+      </PropertyDamageCoverage>  
+      <UninsuredMotoristsCoverage> 
+        <CoverageCode>UM</CoverageCode>  
+        <Limit>15</Limit> 
+      </UninsuredMotoristsCoverage>  
+      <ComprehensiveCoverage></ComprehensiveCoverage>  
+      <CollissionCoverage></CollissionCoverage>  
+      <VehicleFactor>1.0</VehicleFactor>
+      <BusinessUseFactor>1.0</BusinessUseFactor>
+      <policyYear TempVariable="true">2012</policyYear>
+      <Age>1</Age>
+      <AgeRank>5</AgeRank>
+      <Symbol>13.0</Symbol>
+      <NormalizedSymbol>10.0</NormalizedSymbol>
+      <CLWeightFactor TempVariable="true">50</CLWeightFactor>
+      <HighPerformanceVehicleFactor TempVariable="true">3</HighPerformanceVehicleFactor>
+      <VehicleRank>68</VehicleRank>
+      <Ranked>Y</Ranked>
+      <Rank>1</Rank>
+      <DriverId>Driver1</DriverId>
+      <Premium>1924.13</Premium>
+    </Vehicle>  
+    <Vehicle> 
+      <Id>Veh2</Id>  
+      <Year>2010</Year>  
+      <Make>Honda</Make>  
+      <Model>Civic</Model>  
+      <Type>PPA</Type>  
+      <Color>Blue</Color>  
+      <BusinessUse>N</BusinessUse>  
+      <HighPerformanceVehicle>N</HighPerformanceVehicle>  
+      <Value>12,501-13,750</Value>  
+      <BodilyInjuryCoverage> 
+        <CoverageCode>BI</CoverageCode>  
+        <Limit>30/60</Limit>  
+        <zipCode TempVariable="true">21223</zipCode>
+        <BaseRate>877.0</BaseRate>
+        <VehicleFactor>1.0</VehicleFactor>
+        <assignedDriver TempVariable="true">Driver2</assignedDriver>
+        <InexperienceFactor>1</InexperienceFactor>
+        <RelativityFactor>0.95</RelativityFactor>
+        <DiscountRelativityFactor>1</DiscountRelativityFactor>
+        <ILF>1.0</ILF>
+        <FlatExpense>36.0</FlatExpense>
+        <PolicyTypeFactor>1</PolicyTypeFactor>
+        <ColorFactor>1.0</ColorFactor>
+        <Premium>825.55</Premium>
+      </BodilyInjuryCoverage>  
+      <PropertyDamageCoverage> 
+        <CoverageCode>PD</CoverageCode>  
+        <Limit>15</Limit>  
+        <zipCode TempVariable="true">21223</zipCode>
+        <BaseRate>538.0</BaseRate>
+        <VehicleFactor>1.0</VehicleFactor>
+        <assignedDriver TempVariable="true">Driver2</assignedDriver>
+        <InexperienceFactor>1</InexperienceFactor>
+        <RelativityFactor>0.92</RelativityFactor>
+        <DiscountRelativityFactor>1</DiscountRelativityFactor>
+        <ILF>1.0</ILF>
+        <FlatExpense>43.0</FlatExpense>
+        <PolicyTypeFactor>1</PolicyTypeFactor>
+        <Premium>511.1</Premium>
+      </PropertyDamageCoverage>  
+      <ComprehensiveCoverage></ComprehensiveCoverage>  
+      <CollissionCoverage></CollissionCoverage>  
+      <VehicleFactor>1.0</VehicleFactor>
+      <BusinessUseFactor>1.0</BusinessUseFactor>
+      <policyYear TempVariable="true">2012</policyYear>
+      <Age>2</Age>
+      <AgeRank>4</AgeRank>
+      <Symbol>10.0</Symbol>
+      <NormalizedSymbol>10.0</NormalizedSymbol>
+      <CLWeightFactor TempVariable="true">50</CLWeightFactor>
+      <HighPerformanceVehicleFactor TempVariable="true">0</HighPerformanceVehicleFactor>
+      <VehicleRank>64</VehicleRank>
+      <Ranked>Y</Ranked>
+      <Rank>2</Rank>
+      <DriverId>Driver2</DriverId>
+      <Premium>1336.65</Premium>
+    </Vehicle>  
+    <Driver> 
+      <Id>Driver1</Id>  
+      <Age>33</Age>  
+      <Sex>M</Sex>  
+      <MaritalStatus>M</MaritalStatus>  
+      <LicenseType>N</LicenseType>  
+      <Point>3</Point>  
+      <DriverType>RD</DriverType>  
+      <Class>IR</Class>
+      <InexperienceFactor>1</InexperienceFactor>
+      <BIFactor>1.25</BIFactor>
+      <PDFactor>1.16</PDFactor>
+      <ELFactor>1.0</ELFactor>
+      <OperatorFactor>241</OperatorFactor>
+      <Ranked>Y</Ranked>
+      <Rank>1</Rank>
+    </Driver>  
+    <!-- 
+		 -->  
+    <Driver> 
+      <Id>Driver2</Id>  
+      <Age>28</Age>  
+      <Sex>F</Sex>  
+      <MaritalStatus>M</MaritalStatus>  
+      <LicenseType>N</LicenseType>  
+      <Point>0</Point>  
+      <DriverType>RD</DriverType>  
+      <Class>AM</Class>
+      <InexperienceFactor>1</InexperienceFactor>
+      <BIFactor>0.95</BIFactor>
+      <PDFactor>0.92</PDFactor>
+      <ELFactor>1.05</ELFactor>
+      <OperatorFactor>187</OperatorFactor>
+      <Ranked>Y</Ranked>
+      <Rank>2</Rank>
+    </Driver>  
+    <order TempVariable="true">3</order>
+    <vehId TempVariable="true">Veh2</vehId>
+    <maxVehicleFactor TempVariable="true">1.0</maxVehicleFactor>
+    <maxBusinessUseFactor TempVariable="true">1.0</maxBusinessUseFactor>
+    <maxRank TempVariable="true">64</maxRank>
+    <driverId TempVariable="true">Driver2</driverId>
+    <maxOperatorFactor TempVariable="true">187</maxOperatorFactor>
+    <maxPoint TempVariable="true">0</maxPoint>
+    <maxELFactor TempVariable="true">1.05</maxELFactor>
+    <vehRank TempVariable="true">2</vehRank>
+    <PaidInFullFactor>0.95</PaidInFullFactor>
+    <Premium>3260.78</Premium>
+  </PersonalAuto>  
+</Policy>

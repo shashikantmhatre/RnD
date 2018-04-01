@@ -1,0 +1,15 @@
+{
+  "type": "subscribe",
+  "product_ids": [
+    "LTC-USD"
+  ],
+  "channels": [
+    "level2",
+    {
+      "name": "ticker",
+      "product_ids": [
+        "LTC-USD"
+      ]
+    }
+  ]
+}

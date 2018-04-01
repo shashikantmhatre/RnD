@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SRERequest xmlns:rating="http://mmpnc.com/rating"> 
+  <PolicyType>CommercialAuto</PolicyType>  
+  <PolicyNo>CA1234</PolicyNo>  
+  <RenewNo>0</RenewNo>  
+  <State/>  
+  <Premium>1134</Premium>  
+  <EffDate>2013-01-31T12:00:00</EffDate>  
+  <ExpDate>2014-01-31T12:00:00</ExpDate>  
+  <ProductId>93BBD210-679F-4516-BA9F-3629CFE79583</ProductId>  
+  <CommercialAuto> 
+    <RiskAnalyzerWanted>No</RiskAnalyzerWanted>  
+    <PolicyType>Business Auto Coverage Form</PolicyType>  
+    <ProductId>93BBD210-679F-4516-BA9F-3629CFE79583</ProductId>  
+    <LegalEntity>Corporation</LegalEntity>  
+    <GrossReceiptsRatingBasis>No</GrossReceiptsRatingBasis>  
+    <FinancialResponsibility>No</FinancialResponsibility>  
+    <TrailerInterchangeAgreement>No</TrailerInterchangeAgreement>  
+    <HiredAuto>No</HiredAuto>  
+    <NonOwnedAutoWanted>No</NonOwnedAutoWanted>  
+    <FuneralDirectorMedicalPayments>No</FuneralDirectorMedicalPayments>  
+    <TerrorismCoverage>No</TerrorismCoverage>  
+    <OptionalBasicEconomicLossCoverage>No</OptionalBasicEconomicLossCoverage>  
+    <CommercialAutoVehicleUninsuredMotoristPolicyCoverage> 
+      <CoverageType>Combined Single Limit</CoverageType>  
+      <ClassType>All Others</ClassType>  
+      <CombinedSingleLimitText>500,000</CombinedSingleLimitText>  
+      <SplitLimit>Not Applicable</SplitLimit> 
+    </CommercialAutoVehicleUninsuredMotoristPolicyCoverage>  
+    <UninsuredMotoristPropertyDamageLimitText>No Coverage</UninsuredMotoristPropertyDamageLimitText>  
+    <PulledByPowerUnit>No</PulledByPowerUnit>  
+    <ExperienceRatingModificationApplies>No</ExperienceRatingModificationApplies>  
+    <ScheduleRatingModificationApplies>No</ScheduleRatingModificationApplies>  
+    <CommercialAutoPublicTransportation> 
+      <UnitNumber>1</UnitNumber>  
+      <Year>2004</Year>  
+      <Make>test</Make>  
+      <Model>test</Model>  
+      <VIN>1234567890</VIN>  
+      <PrimaryClassCode>515</PrimaryClassCode>  
+      <SecondaryClassCode>1</SecondaryClassCode>  
+      <TransportPublicPassengersForCompensation>Yes</TransportPublicPassengersForCompensation>  
+      <Type>Urban Bus</Type>  
+      <RadiusClass>Local</RadiusClass>  
+      <SeatingCapacity>1 to 8</SeatingCapacity>  
+      <Fleet>No</Fleet>  
+      <GaragingLocation>Cadiz</GaragingLocation>  
+      <Territory>070</Territory>  
+      <ZipCode>92304</ZipCode>  
+      <CommercialAutoVehicleLiabilityCoverage> 
+        <CoverageType>Combined Single Limit</CoverageType>  
+        <LimitText>600,000</LimitText>  
+        <Deductible>No Deductible</Deductible>  
+        <trailerHowUsed TempVariable="true"></trailerHowUsed>
+        <classType TempVariable="true"></classType>
+        <Territory TempVariable="true">070</Territory>
+        <vehicleIndicator TempVariable="true"></vehicleIndicator>
+        <ratingBasisNumeric TempVariable="true">0.0</ratingBasisNumeric>
+        <ZoneRated>false</ZoneRated>
+        <publicTransportationGroup TempVariable="true">Other Buses</publicTransportationGroup>
+        <LookupPublicTransportationLiabilityBasePremium TempVariable="true">1234.0</LookupPublicTransportationLiabilityBasePremium>
+        <PreliminaryBasePremium>1234.0</PreliminaryBasePremium>
+        <lcmLiability TempVariable="true">1.0</lcmLiability>
+        <BasePremium>1234.000</BasePremium>
+        <LookupAllOtherIncreasedLimitFactorTextFactor TempVariable="true">1.5</LookupAllOtherIncreasedLimitFactorTextFactor>
+        <IncreaseLiabilityFactor>1.5</IncreaseLiabilityFactor>
+        <LookupLiabilityDeductibleFactor TempVariable="true">1.0</LookupLiabilityDeductibleFactor>
+        <DeductibleFactor>1.0</DeductibleFactor>
+        <PremiumILFDeductible>1.5</PremiumILFDeductible>
+        <liabilityCombinedRatingFactor TempVariable="true">0.6</liabilityCombinedRatingFactor>
+        <FleetFactor>1</FleetFactor>
+        <days TempVariable="true">0</days>
+        <SchoolBusProrateFactor>1</SchoolBusProrateFactor>
+        <HiredAutoFactor>1</HiredAutoFactor>
+        <Premium>1111</Premium>
+      </CommercialAutoVehicleLiabilityCoverage>  
+      <CommercialAutoVehicleMedicalPaymentsCoverage> 
+        <LimitText>500</LimitText>  
+        <liabilityCombinedRatingFactor TempVariable="true">0.6</liabilityCombinedRatingFactor>
+        <ratingBasisNumeric TempVariable="true">0.0</ratingBasisNumeric>
+        <trailerHowUsed TempVariable="true"></trailerHowUsed>
+        <publicTransportationGroup TempVariable="true">Other Buses</publicTransportationGroup>
+        <fleet TempVariable="true">No</fleet>
+        <LookupPublicTransportationMedicalPaymentsTextBasePremium TempVariable="true">39.0</LookupPublicTransportationMedicalPaymentsTextBasePremium>
+        <PreliminaryBasePremium>39.0</PreliminaryBasePremium>
+        <lcmLiability TempVariable="true">1.0</lcmLiability>
+        <BasePremium>39.000</BasePremium>
+        <FleetFactor>1</FleetFactor>
+        <Premium>23</Premium>
+      </CommercialAutoVehicleMedicalPaymentsCoverage>  
+      <CommercialAutoVehicleUninsuredMotoristCoverage> 
+        <Wanted>Yes</Wanted>  
+        <uninsuredUnderinsuredMotoristType TempVariable="true"></uninsuredUnderinsuredMotoristType>
+        <LookupUninsuredMotoristNonPrivatePassengerTypeSingleLimitTextBasePremium TempVariable="true">0.0</LookupUninsuredMotoristNonPrivatePassengerTypeSingleLimitTextBasePremium>
+        <BasePremium>0.0</BasePremium>
+        <LookupUninsuredMotoristClassOneSurcharge TempVariable="true">0.0</LookupUninsuredMotoristClassOneSurcharge>
+        <ClassOneSurcharge>0.0</ClassOneSurcharge>
+        <lcmLiability TempVariable="true">0</lcmLiability>
+        <Premium>0</Premium>
+      </CommercialAutoVehicleUninsuredMotoristCoverage>  
+      <CommercialAutoVehicleOtherThanCollisionCoverage> 
+        <CoverageType>ACV</CoverageType>  
+        <Deductible>100</Deductible>  
+        <physicalDamageCombinedRatingFactor TempVariable="true">1.45</physicalDamageCombinedRatingFactor>
+        <bRatingBasisNumeric TempVariable="true"></bRatingBasisNumeric>
+        <BasePremium>0</BasePremium>
+        <PublicTransportationAdditionalCoverageFactor>1</PublicTransportationAdditionalCoverageFactor>
+        <Premium>0</Premium>
+      </CommercialAutoVehicleOtherThanCollisionCoverage>  
+      <CommercialAutoVehicleCollisionCoverage> 
+        <CoverageType>ACV</CoverageType>  
+        <Deductible>250</Deductible>  
+        <DeductibleWaiver>No</DeductibleWaiver>  
+        <VehicleType>Public Transportation</VehicleType>
+        <physicalDamageCombinedRatingFactor TempVariable="true">0</physicalDamageCombinedRatingFactor>
+        <OriginalCostNew TempVariable="true">40000</OriginalCostNew>
+        <ratingBasisNumeric TempVariable="true">0.0</ratingBasisNumeric>
+        <RatingBasisNumeric TempVariable="true">0.0</RatingBasisNumeric>
+        <ratingPrimaryClassCode TempVariable="true">515</ratingPrimaryClassCode>
+        <Class TempVariable="true"></Class>
+        <className TempVariable="true"></className>
+        <LookupPublicTransportationCollisionCostNewRelativity TempVariable="true">1.35</LookupPublicTransportationCollisionCostNewRelativity>
+        <CostNewRelativity>1.35</CostNewRelativity>
+        <LookupPublicTransportationCollisionDeductibleRelativity TempVariable="true">-0.065</LookupPublicTransportationCollisionDeductibleRelativity>
+        <DeductibleRelativity>-0.065</DeductibleRelativity>
+        <PublicTransportationOver90000Factor>0</PublicTransportationOver90000Factor>
+        <AgeGroup TempVariable="true">10</AgeGroup>
+        <ageGroup TempVariable="true">10</ageGroup>
+        <LookupPublicTransportationCollisionAgeGroupRelativity TempVariable="true">0.55</LookupPublicTransportationCollisionAgeGroupRelativity>
+        <AgeGroupRelativity>0.55</AgeGroupRelativity>
+        <LCMPhysicalDamage TempVariable="true">1.0</LCMPhysicalDamage>
+        <Territory TempVariable="true">070</Territory>
+        <SupplementaryType TempVariable="true"></SupplementaryType>
+        <GaragingZone TempVariable="true"></GaragingZone>
+        <garagingZone TempVariable="true"></garagingZone>
+        <FarthestTerminalZone TempVariable="true"></FarthestTerminalZone>
+        <farthestTerminalZone TempVariable="true"></farthestTerminalZone>
+        <PublicTransportationGroup TempVariable="true">Other Buses</PublicTransportationGroup>
+        <LookupPublicTransportationCollisionBaseRate TempVariable="true">91.0</LookupPublicTransportationCollisionBaseRate>
+        <VehicleIndicator TempVariable="true"></VehicleIndicator>
+        <PreliminaryBaseRateFromTable>91.0</PreliminaryBaseRateFromTable>
+        <PreliminaryBaseRate>91.000</PreliminaryBaseRate>
+        <BasePremium>71</BasePremium>
+        <schoolBusProration TempVariable="true">No</schoolBusProration>
+        <days TempVariable="true">0</days>
+        <SchoolBusProrateFactor>1</SchoolBusProrateFactor>
+        <Premium>0</Premium>
+      </CommercialAutoVehicleCollisionCoverage>  
+      <OriginalCostNew>40000</OriginalCostNew>  
+      <StatedAmount>0</StatedAmount>  
+      <CommercialAutoRentalReimbursementCoverage> 
+        <DailyRentalAmount>0</DailyRentalAmount>  
+        <MaximumRentalDays>0</MaximumRentalDays>  
+        <AnyOnePeriod>0</AnyOnePeriod> 
+      </CommercialAutoRentalReimbursementCoverage>  
+      <VehicleType>Public Transportation</VehicleType>
+      <LookupPublicTransportationRatingBasisNumeric TempVariable="true">0.0</LookupPublicTransportationRatingBasisNumeric>
+      <LookupPublicTransportationPrimaryClassCodeNumeric TempVariable="true">515.0</LookupPublicTransportationPrimaryClassCodeNumeric>
+      <ClassCodeNumeric>515.0</ClassCodeNumeric>
+      <RatingBasisNumeric>0.0</RatingBasisNumeric>
+      <RatingPrimaryClassCode>515</RatingPrimaryClassCode>
+      <year TempVariable="true">2013</year>
+      <AgeGroup>10</AgeGroup>
+      <LookupPublicTransportationGroup TempVariable="true">Other Buses</LookupPublicTransportationGroup>
+      <PublicTransportationGroup>Other Buses</PublicTransportationGroup>
+      <SchoolBusProration>No</SchoolBusProration>
+      <NumberOfDaysSchoolYear>0</NumberOfDaysSchoolYear>
+      <Premium>1134</Premium>
+      <LookupPublicTransportationLiabilityPrimaryFactor TempVariable="true">0.8</LookupPublicTransportationLiabilityPrimaryFactor>
+      <LiabilityPrimaryRatingFactor>0.8</LiabilityPrimaryRatingFactor>
+      <RatingSecondaryClassCode>1</RatingSecondaryClassCode>
+      <LookupPublicTransportationLiabilitySecondaryFactor TempVariable="true">-0.2</LookupPublicTransportationLiabilitySecondaryFactor>
+      <LiabilitySecondaryRatingFactor>-0.2</LiabilitySecondaryRatingFactor>
+      <LiabilityCombinedRatingFactor>0.6</LiabilityCombinedRatingFactor>
+      <LookupPublicTransportationPhysicalDamagePrimaryFactor TempVariable="true">1.45</LookupPublicTransportationPhysicalDamagePrimaryFactor>
+      <PhysicalDamagePrimaryRatingFactor>1.45</PhysicalDamagePrimaryRatingFactor>
+      <LookupPublicTransportationPhysicalDamageSecondaryRate TempVariable="true">0.0</LookupPublicTransportationPhysicalDamageSecondaryRate>
+      <PhysicalDamageSecondaryRatingFactor>0.0</PhysicalDamageSecondaryRatingFactor>
+      <PhysicalDamageCombinedRatingFactor>1.45</PhysicalDamageCombinedRatingFactor>
+    </CommercialAutoPublicTransportation>  
+    <Premium>1134</Premium>
+    <LCMPhysicalDamage>1.0</LCMPhysicalDamage>
+    <LCMLiability>1.0</LCMLiability>
+  </CommercialAuto>  
+</SRERequest>

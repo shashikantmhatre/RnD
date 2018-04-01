@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/com/mmpnc/policy/iso/vo/BasePolicySchema.xsd">
+	<PolicyType>WorkersComp</PolicyType>
+	<PolicyNo>1</PolicyNo>
+	<RenewNo>0</RenewNo>
+	<State />
+	<Premium>0.0</Premium>
+	<EffDate>2013-12-31T12:00:00</EffDate>
+	<ExpDate>2014-12-31T12:00:00</ExpDate>
+	<Ratebook>{59B91282-3A7E-4A0A-AF26-64214350EE79}</Ratebook>
+
+	<WorkersComp>
+		<YearsInBusiness>10</YearsInBusiness>
+		<SICCode>1234</SICCode>
+		<LegalEntity>Association</LegalEntity>
+		<GoverningState>Texas</GoverningState>
+		
+		<RatingIteration>1</RatingIteration>
+		<XMLRatingRequest>Yes</XMLRatingRequest>
+		
+		<WorkersCompEmployersLiabilityCoverage>
+			<EachAccidentLimit>1,000,000</EachAccidentLimit>
+			<DiseasePolicyLimit>1,000,000</DiseasePolicyLimit>
+			<DiseaseEachEmployeeLimit>1,000,000</DiseaseEachEmployeeLimit>
+		</WorkersCompEmployersLiabilityCoverage>
+		<EmployersLiabilityOnlyPolicy>No</EmployersLiabilityOnlyPolicy>
+
+		<DeductibleType>Negotiated Deductible</DeductibleType>
+		<NegotiatedDeductibleAmount>2500</NegotiatedDeductibleAmount>
+		<WorkersCompSmallDeductibleCoverage>
+			<NegotiatedDeductibleFactor>0.02</NegotiatedDeductibleFactor>
+		</WorkersCompSmallDeductibleCoverage>
+		
+		<FederalEmployersLiabilityActCoverageLimit>Not Applicable</FederalEmployersLiabilityActCoverageLimit>
+		
+		<OffshoreIndicator>Yes</OffshoreIndicator>
+		<OffshoreLowerLimit>100,000</OffshoreLowerLimit>
+		<OffshoreUpperLimit>500,000</OffshoreUpperLimit>
+		<WorkersCompOilGasOrOtherMineralOperationsOnOrOverWaterCoverageIncrLimitsCoverage />
+		
+		<AdmiraltyLimit>500,000</AdmiraltyLimit>
+		<WorkersCompAdmiraltyIncrLimitsCoveragePostARD>
+			<PremiumHeader />
+		</WorkersCompAdmiraltyIncrLimitsCoveragePostARD>
+		<WorkersCompAdmiraltyIncrLimitsCoverage>
+			<Premium />
+		</WorkersCompAdmiraltyIncrLimitsCoverage>		
+		
+		<WorkersCompLocation>
+		
+			<WorkersCompClass>
+				<UnitNumber>1</UnitNumber>
+				<SelectBy>Class Code</SelectBy>
+				<ClassCodeForClassDescription>7046</ClassCodeForClassDescription>
+				<ClassDescriptionByClassCode>Vessels - not self-propelled-Program I</ClassDescriptionByClassCode>
+				<IfAny>No</IfAny>
+				<Payroll>4000000</Payroll>
+				<WorkersCompClassClassCodeCoverage />
+				
+				
+				<WorkersCompSupplementaryDiseasePremiumCoverage>
+					<SupplementaryDiseaseType>Not Applicable</SupplementaryDiseaseType>
+					<SupplementaryDiseaseAdjustment>Yes</SupplementaryDiseaseAdjustment>
+					<ManualPremium>250</ManualPremium>
+				</WorkersCompSupplementaryDiseasePremiumCoverage>
+				<WorkersCompClassCoverage>
+					<USLHAdjustment>No</USLHAdjustment>
+					<AdmiraltyClassCodeIndicator>1</AdmiraltyClassCodeIndicator>
+				</WorkersCompClassCoverage>
+				<OilGasMineralAdjustment>No</OilGasMineralAdjustment>
+				<WorkersCompClassTransportationWagesMaintenanceAndCureCoverage>
+					<TWMCAdjustment>Yes</TWMCAdjustment>
+					<TWMCRate>0.05</TWMCRate>
+				</WorkersCompClassTransportationWagesMaintenanceAndCureCoverage>
+				<WorkersCompAdmiraltyCoverage>
+					<AdmiraltyLimit>500,000</AdmiraltyLimit>
+				</WorkersCompAdmiraltyCoverage>
+				
+				<OilGasMineralAdjustment>No</OilGasMineralAdjustment>
+				
+				<WorkersCompClassOilGasOrOtherMineralOperationsOnOrOverWaterCoverage/>
+				
+			</WorkersCompClass>
+			
+			<WorkersCompClass>
+				<UnitNumber>2</UnitNumber>
+				<SelectBy>Class Code</SelectBy>
+				<ClassCodeForClassDescription>1803</ClassCodeForClassDescription>
+				<ClassDescriptionByClassCode>Fiberglass Insulation Mfg And Drivers</ClassDescriptionByClassCode>
+				<IfAny>No</IfAny>
+				<Payroll>450000</Payroll>
+				<DiseaseLoading>Remove</DiseaseLoading>
+				<WorkersCompClassClassCodeCoverage />
+				<WorkersCompSupplementaryDiseasePremiumCoverage>
+					<SupplementaryDiseaseType>Not Applicable</SupplementaryDiseaseType>
+					<SupplementaryDiseaseAdjustment>Yes</SupplementaryDiseaseAdjustment>
+					<ManualPremium>350.0</ManualPremium>
+				</WorkersCompSupplementaryDiseasePremiumCoverage>
+				<WorkersCompClassCoverage>
+					<USLHAdjustment>No</USLHAdjustment>
+					<AdmiraltyClassCodeIndicator>1</AdmiraltyClassCodeIndicator>
+				</WorkersCompClassCoverage>
+				
+				<OilGasMineralAdjustment>Yes</OilGasMineralAdjustment>
+				
+				<WorkersCompClassTransportationWagesMaintenanceAndCureCoverage>
+					<TWMCAdjustment>Yes</TWMCAdjustment>
+					<TWMCRate>0.05</TWMCRate>
+				</WorkersCompClassTransportationWagesMaintenanceAndCureCoverage>
+				<WorkersCompAdmiraltyCoverage>
+					<AdmiraltyLimit>500,000</AdmiraltyLimit>
+				</WorkersCompAdmiraltyCoverage>
+								
+				<WorkersCompClassOilGasOrOtherMineralOperationsOnOrOverWaterCoverage>
+					<ARateOil>0.02</ARateOil>
+					<SubjectPayroll>500000</SubjectPayroll>
+				</WorkersCompClassOilGasOrOtherMineralOperationsOnOrOverWaterCoverage>
+				
+			</WorkersCompClass>
+			
+			
+		</WorkersCompLocation>
+
+	</WorkersComp>
+
+
+
+</Policy>

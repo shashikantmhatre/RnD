@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/com/mmpnc/policy/iso/vo/BasePolicySchema.xsd">
+  <PolicyType>CommercialAuto</PolicyType>
+  <PolicyNo>CA1234</PolicyNo>
+  <RenewNo>0</RenewNo>
+  <State/>
+  <Premium>0.0</Premium>
+  <EffDate>2013-01-31T12:00:00</EffDate>
+  <ExpDate>2014-01-31T12:00:00</ExpDate>
+  <Ratebook>{AECDA1F0-5F07-4220-954D-C711DD06D8DB}</Ratebook>
+  <CommercialAuto>
+  	<PolicyType>Business Auto Coverage Form</PolicyType>
+  	<Ratebook>{AECDA1F0-5F07-4220-954D-C711DD06D8DB}</Ratebook>
+  	<LegalEntity>Corporation</LegalEntity>
+  	<GrossReceiptsRatingBasis>No</GrossReceiptsRatingBasis>
+  	<FinancialResponsibility>No</FinancialResponsibility>
+  	<TrailerInterchangeAgreement>No</TrailerInterchangeAgreement>
+  	<HiredAuto>No</HiredAuto>
+  	<NonOwnedAutoWanted>No</NonOwnedAutoWanted>
+  	<FuneralDirectorMedicalPayments>No</FuneralDirectorMedicalPayments>
+  	<TerrorismCoverage>No</TerrorismCoverage>
+  	<OptionalBasicEconomicLossCoverage>No</OptionalBasicEconomicLossCoverage>
+  	
+  	<CommercialAutoVehicleUninsuredMotoristPolicyCoverage>
+  		<CoverageType>Supplementary Coverage - Split Limit</CoverageType>
+  		<ClassType>Individual or Married Couple</ClassType>
+  		<CombinedSingleLimitText>Not Applicable</CombinedSingleLimitText>
+  		<SplitLimit>250,000/500,000</SplitLimit>
+  	</CommercialAutoVehicleUninsuredMotoristPolicyCoverage>
+  	
+  	<PulledByPowerUnit>No</PulledByPowerUnit>
+  	<ExperienceRatingModificationApplies>No</ExperienceRatingModificationApplies>
+  	<ScheduleRatingModificationApplies>No</ScheduleRatingModificationApplies>
+  	
+  	<CommercialAutoTruck>
+  		<UnitNumber>1</UnitNumber>
+  		<Year>2008</Year>
+  		<Make>Sample</Make>
+  		<Model>Test</Model>
+  		<VIN>1234567890</VIN>
+  		<VehicleType>Truck</VehicleType>
+  		<PrimaryClassCode>11</PrimaryClassCode>
+  		<SecondaryClassCode>2</SecondaryClassCode>
+  		<SizeClass>Light Truck</SizeClass>
+  		<RadiusClass>Local</RadiusClass>
+  		<BusinessUseClass>Service</BusinessUseClass>
+  		<Fleet>No</Fleet>
+  		<GrossVehicleWeight>2500</GrossVehicleWeight>
+  		<SecondaryClass>Truckers - Carrier Both Private Carriage &amp; Transport Goods/Materials/Commodities</SecondaryClass>
+  		<FarmersLimitedRegistrationPlates>No</FarmersLimitedRegistrationPlates>
+  		<GaragingLocation>Glenwood</GaragingLocation>
+  		<Territory>041</Territory>
+  		<ZipCode>14069</ZipCode>
+  		<AccidentPreventionDiscount>Yes</AccidentPreventionDiscount>
+  		<AuxillaryRunningLampsDiscount>No</AuxillaryRunningLampsDiscount>
+  		<TrailerHowUsed>Not Applicable</TrailerHowUsed>
+  		<OriginalCostNew>50000</OriginalCostNew>
+  		<StatedAmount>0</StatedAmount>
+  		<CommercialAutoVehicleLiabilityCoverage>
+  			<CoverageType>Combined Single Limit</CoverageType>
+  			<LimitText>100,000</LimitText>
+  			<Deductible>No Deductible</Deductible>
+  		</CommercialAutoVehicleLiabilityCoverage>
+  		
+  		<CommercialAutoVehicleMedicalPaymentsCoverage>
+  			<LimitText>1,000</LimitText>
+  		</CommercialAutoVehicleMedicalPaymentsCoverage>
+  		
+  		<CommercialAutoVehiclePIPCoverage>
+  			<CoverageType>Basic</CoverageType>
+  			<RatingBasis>Covered by Workers'' Compensation</RatingBasis>
+  			<Deductible>100</Deductible>
+  			<AdditionalPersonalInjuryProtection>Yes</AdditionalPersonalInjuryProtection>
+  			<ExclusionOfWorkLoss>Yes</ExclusionOfWorkLoss>
+  			<MedicalExpenseElimination>No Elimination of Coverage</MedicalExpenseElimination>
+  		</CommercialAutoVehiclePIPCoverage>
+  		
+  		<CommercialAutoVehicleUninsuredMotoristCoverage>
+  			<Wanted>Yes</Wanted>
+  		</CommercialAutoVehicleUninsuredMotoristCoverage>
+  		
+  		<CommercialAutoVehicleOtherThanCollisionCoverage>
+  			<CoverageType>ACV</CoverageType>
+  			<Deductible>100</Deductible>
+  		</CommercialAutoVehicleOtherThanCollisionCoverage>
+  		
+  		<CommercialAutoVehicleCollisionCoverage>
+  			<CoverageType>ACV</CoverageType>
+  			<Deductible>250</Deductible>
+  		</CommercialAutoVehicleCollisionCoverage>
+  		
+  		<CommercialAutoLawEnforcementFee>
+  			<LawEnforcementFeeApplies>Yes</LawEnforcementFeeApplies>
+  		</CommercialAutoLawEnforcementFee>
+  		
+  	</CommercialAutoTruck>
+  	
+  	
+  </CommercialAuto>
+  
+</Policy>

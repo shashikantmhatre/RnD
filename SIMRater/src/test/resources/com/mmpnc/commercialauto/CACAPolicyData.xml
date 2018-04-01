@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SRERequest>
+  <PolicyType>CommercialAuto</PolicyType>
+  <PolicyNo>CA1234</PolicyNo>
+  <RenewNo>0</RenewNo>
+  <State/>
+  <Premium>0.0</Premium>
+  <EffDate>2013-01-31T12:00:00</EffDate>
+  <ExpDate>2014-01-31T12:00:00</ExpDate>
+  <ProductId>93BBD210-679F-4516-BA9F-3629CFE79583</ProductId>
+    
+  <CommercialAuto>
+  	<RiskAnalyzerWanted>No</RiskAnalyzerWanted>
+  	<PolicyType>Business Auto Coverage Form</PolicyType>
+  	<ProductId>93BBD210-679F-4516-BA9F-3629CFE79583</ProductId>
+  	<LegalEntity>Corporation</LegalEntity>
+  	<GrossReceiptsRatingBasis>No</GrossReceiptsRatingBasis>
+  	<FinancialResponsibility>No</FinancialResponsibility>
+  	<TrailerInterchangeAgreement>No</TrailerInterchangeAgreement>
+  	<HiredAuto>No</HiredAuto>
+  	<NonOwnedAutoWanted>No</NonOwnedAutoWanted>
+  	<FuneralDirectorMedicalPayments>No</FuneralDirectorMedicalPayments>
+  	<TerrorismCoverage>No</TerrorismCoverage>
+  	<OptionalBasicEconomicLossCoverage>No</OptionalBasicEconomicLossCoverage>
+  	
+  	<CommercialAutoVehicleUninsuredMotoristPolicyCoverage>
+  		<CoverageType>Combined Single Limit</CoverageType>
+  		<ClassType>All Others</ClassType>
+  		<CombinedSingleLimitText>500,000</CombinedSingleLimitText>
+  		<SplitLimit>Not Applicable</SplitLimit>
+  	</CommercialAutoVehicleUninsuredMotoristPolicyCoverage>
+  	
+  	<UninsuredMotoristPropertyDamageLimitText>No Coverage</UninsuredMotoristPropertyDamageLimitText>
+  	
+  	<PulledByPowerUnit>No</PulledByPowerUnit>
+  	<ExperienceRatingModificationApplies>No</ExperienceRatingModificationApplies>
+  	<ScheduleRatingModificationApplies>No</ScheduleRatingModificationApplies>
+  
+	<CommercialAutoPublicTransportation>
+		<UnitNumber>1</UnitNumber>
+  		<Year>2004</Year>
+  		<Make>test</Make>
+  		<Model>test</Model>
+  		<VIN>1234567890</VIN>
+  		<PrimaryClassCode>515</PrimaryClassCode>
+  		<SecondaryClassCode>1</SecondaryClassCode>
+  		<TransportPublicPassengersForCompensation>Yes</TransportPublicPassengersForCompensation>
+  		<Type>Urban Bus</Type>
+  		<RadiusClass>Local</RadiusClass>
+  		<SeatingCapacity>1 to 8</SeatingCapacity>
+  		<Fleet>No</Fleet>
+
+  		<GaragingLocation>Cadiz</GaragingLocation>
+  		<Territory>070</Territory>
+  		<ZipCode>92304</ZipCode>
+  		
+  		<CommercialAutoVehicleLiabilityCoverage>
+  			<CoverageType>Combined Single Limit</CoverageType>
+  			<LimitText>600,000</LimitText>
+  			<Deductible>No Deductible</Deductible>
+  		</CommercialAutoVehicleLiabilityCoverage>
+  		
+  		<CommercialAutoVehicleMedicalPaymentsCoverage>
+  			<LimitText>500</LimitText>
+  		</CommercialAutoVehicleMedicalPaymentsCoverage>
+  		
+  		<CommercialAutoVehicleUninsuredMotoristCoverage>
+  			<Wanted>Yes</Wanted>
+  		</CommercialAutoVehicleUninsuredMotoristCoverage>
+  		
+  		<CommercialAutoVehicleOtherThanCollisionCoverage>
+  			<CoverageType>ACV</CoverageType>
+  			<Deductible>100</Deductible>
+  		</CommercialAutoVehicleOtherThanCollisionCoverage>
+  		
+  		<CommercialAutoVehicleCollisionCoverage>
+  			<CoverageType>ACV</CoverageType>
+  			<Deductible>250</Deductible>
+  			<DeductibleWaiver>No</DeductibleWaiver>
+  		</CommercialAutoVehicleCollisionCoverage>
+  		
+  		<OriginalCostNew>40000</OriginalCostNew>
+  		<StatedAmount>0</StatedAmount>
+  		
+  		<CommercialAutoRentalReimbursementCoverage>
+  			<DailyRentalAmount>0</DailyRentalAmount>
+  			<MaximumRentalDays>0</MaximumRentalDays>
+  			<AnyOnePeriod>0</AnyOnePeriod>
+  		</CommercialAutoRentalReimbursementCoverage>
+  		
+	</CommercialAutoPublicTransportation>  	
+  	
+  </CommercialAuto>
+  
+</SRERequest>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rating="http://mmpnc.com/rating" xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/com/mmpnc/policy/iso/vo/BasePolicySchema.xsd">  
+  <PolicyType>CommercialAuto</PolicyType>  
+  <PolicyNo>CA1234</PolicyNo>  
+  <RenewNo>0</RenewNo>  
+  <State/>  
+  <Premium>433</Premium>  
+  <EffDate>2013-01-31T12:00:00</EffDate>  
+  <ExpDate>2014-01-31T12:00:00</ExpDate>  
+  <Ratebook>{AECDA1F0-5F07-4220-954D-C711DD06D8DB}</Ratebook>  
+  <CommercialAuto> 
+    <PolicyType>Business Auto Coverage Form</PolicyType>  
+    <Ratebook>{AECDA1F0-5F07-4220-954D-C711DD06D8DB}</Ratebook>  
+    <LegalEntity>Corporation</LegalEntity>  
+    <GrossReceiptsRatingBasis>No</GrossReceiptsRatingBasis>  
+    <FinancialResponsibility>No</FinancialResponsibility>  
+    <TrailerInterchangeAgreement>No</TrailerInterchangeAgreement>  
+    <HiredAuto>No</HiredAuto>  
+    <NonOwnedAutoWanted>No</NonOwnedAutoWanted>  
+    <FuneralDirectorMedicalPayments>No</FuneralDirectorMedicalPayments>  
+    <TerrorismCoverage>No</TerrorismCoverage>  
+    <OptionalBasicEconomicLossCoverage>No</OptionalBasicEconomicLossCoverage>  
+    <CommercialAutoVehicleUninsuredMotoristPolicyCoverage> 
+      <CoverageType>Supplementary Coverage - Split Limit</CoverageType>  
+      <ClassType>Individual or Married Couple</ClassType>  
+      <CombinedSingleLimitText>Not Applicable</CombinedSingleLimitText>  
+      <SplitLimit>250,000/500,000</SplitLimit> 
+    </CommercialAutoVehicleUninsuredMotoristPolicyCoverage>  
+    <PulledByPowerUnit>No</PulledByPowerUnit>  
+    <ExperienceRatingModificationApplies>No</ExperienceRatingModificationApplies>  
+    <ScheduleRatingModificationApplies>No</ScheduleRatingModificationApplies>  
+    <CommercialAutoTruck> 
+      <UnitNumber>1</UnitNumber>  
+      <Year>2008</Year>  
+      <Make>Sample</Make>  
+      <Model>Test</Model>  
+      <VIN>1234567890</VIN>  
+      <VehicleType>Truck</VehicleType>  
+      <PrimaryClassCode>11</PrimaryClassCode>  
+      <SecondaryClassCode>2</SecondaryClassCode>  
+      <SizeClass>Light Truck</SizeClass>  
+      <RadiusClass>Local</RadiusClass>  
+      <BusinessUseClass>Service</BusinessUseClass>  
+      <Fleet>No</Fleet>  
+      <GrossVehicleWeight>2500</GrossVehicleWeight>  
+      <SecondaryClass>Truckers - Carrier Both Private Carriage &amp; Transport Goods/Materials/Commodities</SecondaryClass>  
+      <FarmersLimitedRegistrationPlates>No</FarmersLimitedRegistrationPlates>  
+      <GaragingLocation>Glenwood</GaragingLocation>  
+      <Territory>041</Territory>  
+      <ZipCode>14069</ZipCode>  
+      <AccidentPreventionDiscount>Yes</AccidentPreventionDiscount>  
+      <AuxillaryRunningLampsDiscount>No</AuxillaryRunningLampsDiscount>  
+      <TrailerHowUsed>Not Applicable</TrailerHowUsed>  
+      <CommercialAutoVehicleLiabilityCoverage> 
+        <CoverageType>Combined Single Limit</CoverageType>  
+        <LimitText>100,000</LimitText>  
+        <Deductible>No Deductible</Deductible>  
+        <coverageType>Combined Single Limit</coverageType>
+        <limitText>100,000</limitText>
+        <trailerHowUsed>Not Applicable</trailerHowUsed>
+        <vehicleType>Truck</vehicleType>
+        <liabilityCombinedRatingFactor>1.75</liabilityCombinedRatingFactor>
+        <TerritoryFactor>1</TerritoryFactor>
+        <territoryFactor>1</territoryFactor>
+        <garagingLocation>Glenwood</garagingLocation>
+        <Territory>041</Territory>
+        <ratingBasisNumeric></ratingBasisNumeric>
+        <ZoneRated>false</ZoneRated>
+        <PreliminaryBasePremium>275.0</PreliminaryBasePremium>
+        <lcmLiability>1.0</lcmLiability>
+        <BasePremium>275.000</BasePremium>
+        <sizeClass>Light Truck</sizeClass>
+        <LookupTruckIncreaseLimitFactorClass>Light And Medium Trucks</LookupTruckIncreaseLimitFactorClass>
+        <IncreaseLiabilityClass>Light And Medium Trucks</IncreaseLiabilityClass>
+        <IncreaseLiabilityFactor>1.0</IncreaseLiabilityFactor>
+        <DeductibleFactor>1.0</DeductibleFactor>
+        <PremiumILFDeductible>1</PremiumILFDeductible>
+        <FleetFactor>1</FleetFactor>
+        <AccidentPreventionDiscountFactor>0.9</AccidentPreventionDiscountFactor>
+        <AuxillaryRunningLampsDiscountFactor>1</AuxillaryRunningLampsDiscountFactor>
+        <HiredAutoFactor>1</HiredAutoFactor>
+        <Premium>433</Premium>
+      </CommercialAutoVehicleLiabilityCoverage>  
+      <Premium>433</Premium>
+      <RatingPrimaryClassCode>11</RatingPrimaryClassCode>
+      <ClassCodeNumeric>11.0</ClassCodeNumeric>
+      <LiabilityPrimaryRatingFactor>1.0</LiabilityPrimaryRatingFactor>
+      <SecondaryClassCodeNumeric>2.0</SecondaryClassCodeNumeric>
+      <LiabilitySecondaryRatingFactor>0.75</LiabilitySecondaryRatingFactor>
+      <LiabilityCombinedRatingFactor>1.75</LiabilityCombinedRatingFactor>
+      <TerritoryFactor>1</TerritoryFactor>
+    </CommercialAutoTruck>  
+    <Premium>433</Premium>
+    <LCMLiability>1.0</LCMLiability>
+  </CommercialAuto>  
+</Policy>

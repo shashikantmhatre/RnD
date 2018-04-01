@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!--
+ 
+   ====================================================================== 
+   =====  ACORD Property Casualty Schema - Code Lists Extensions                                                                   
+   =====  
+   ====================================================================== 
+   Standard Organization: ACORD
+   Version: 2.2.0
+   Generated on: 06/30/2017
+   
+   COPYRIGHT NOTICE:
+   (c) 2001-2017 ACORD.  All Rights Reserved.
+   
+   IMPORTANT NOTE: This document contains or relates to ACORD Standard Property & Casualty/Surety. You are not
+   authorized to use the ACORD Standard contained in this document unless you have accepted the terms and 
+   conditions of the Standards License.
+   
+   
+   
+   http://www.ACORD.org
+ 
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.acord.org/schema/PC/xml/2" elementFormDefault="unqualified" attributeFormDefault="unqualified" targetNamespace="http://www.acord.org/schema/PC/xml/2" version="2.2.0">
+  <xsd:include schemaLocation="BusinessData.xsd"/>
+  <xsd:annotation xmlns="http://www.acord.org/schema/PC/xml/2">
+    <xsd:appinfo>
+      <version>2.2.0</version>
+      <status>Released</status>
+      <genDate>Fri Jun 30 08:46:23 2017</genDate>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml-ns.xsd">
+    <xsd:annotation>
+      <xsd:documentation>Get access to the xml: attribute groups for xml:lang</xsd:documentation>
+    </xsd:annotation>
+  </xsd:import>
+  <xsd:include schemaLocation="BusinessData.xsd"/>
+  <xsd:simpleType name="AccountStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ACORDStandardVersionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AcquisitionMethodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ActionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ActivityNoteTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AdditionsExtensionsIncludedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AddressTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AdjusterTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AdMediaContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AgeGroupContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AirBagStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AirBagTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AircraftEngineTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AircraftStorageContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AircraftTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AircraftUseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AirportOccupancyContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AirportTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AlarmDescriptionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AlarmTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AmountTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AmusementDeviceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AnchoringSystemUtilizesContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AnimalAccommodationsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AnimalTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AntiTheftProductContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AppetiteTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ApplicantInterestContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ApplicantLiabilityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ApprovalStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AttachmentStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AttachmentTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AuditMethodTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AuditRenderedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AuditReviewContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AuditSourceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AuditTransactionTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AuditTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="AutoAntiTheftDeviceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BathroomTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BillingAccountStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BillingActivityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BillingMethodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BinderPurposeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BondTermsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BondTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BordereauPolicyStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BordereauPremiumTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BreedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BroadcastContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BroadcastOperationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BroadLineBusinessContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BuildingEffectivenessGradeTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BuildingExposureContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BuildingOverWaterContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BuildingPurposeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BuildingSystemContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BuildingUseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BulletResistingEnclosureTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BusinessAcquiredContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BusinessIncomeTypeOfBusinessContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="BusinessOwnerStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CancelEvidenceObtainedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CancellationReasonContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CancellationTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CarrierTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CertificationTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CertifyingEntityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ChangeStatusSourceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ChaptersHandledContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ChargeTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ChimneyContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ClaimHistoryReportStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ClaimNoticeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ClaimsPartyLocationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ClaimsPartyRoleContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ClaimStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ClassSpecificRatedIndicatorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ClearanceFromContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ClearanceToContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ClienteleAgeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ClosureMethodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CodeListOwnerContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ColumnDataCategoryContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ColumnDataTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CommlIMClassContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CommlIMSubClassContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CommodityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CommunicationExposureContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CommunicationUseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CommunityProgramTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CompletedByContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ComponentTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ConstructionClassContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ConstructionReasonContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ConstructionStyleContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ConstructionTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ContentsLocationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ContentTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ContinuousInsuranceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ConveyanceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CopyrightOwnerContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CourseTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CoverageCategoryContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CoverageOptionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CoveragesContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CoverageTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CoverageVerificationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CrimeScheduleTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="CycleBusinessPurposeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DataTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DaysContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DeckMaterialTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DeductibleAppliesContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DeductibleTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DefensiveDriverIndicatorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DelimiterContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DepositTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DesignTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DetachedStructureTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DirectionTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DisasterAssistanceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DistanceTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DocumentCopyTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DoorChestTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DoorLockTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DoorTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DriverRelatesToContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DriverUseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DrivingRecordContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DwellingStyleContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="DwellingUseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EarthquakeBuildingGroundContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EarthquakeRetrofitContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EducationLevelContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ElectedAppointedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ElectricalPanelContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ElectricalProtectionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ElectronicDocsSelectionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ElectronicDocumentTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ElevationBasisContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ElevationDatumContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EmployeeBenefitPlanTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EmployeeCountryContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EmployeeInterestContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EmployeeScheduleTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EmployeeStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EmployeeSubjectToContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EmployeeTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EmployerContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EmploymentStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EnclosureStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EnclosureUsageContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EncodingTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EncryptionTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EndorsementReasonTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EngineTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EquipmentSizeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EquipmentTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="EventContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ExchangeTradedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ExposureCategoryContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ExposuresContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ExtendedStatusTextContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FarmedByContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FarmRanchTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FilingTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FinancialResponsibilityFilingsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FinancialResponsibilityFilingStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FinancialResponsibilityPurposeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FinancialResponsibilityTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FinancialTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FireExtinguishingSystemTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FireplaceTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FloodEquipmentStorageLocationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FloodRatingContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FloodSourceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FormsRequestedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FormTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FoundationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FrameworkStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FrequencyContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FuelLineLocationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FuelTankContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="FuelTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="GarageTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="GaragingContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="GenderContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="GeneralShapeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="GlassTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="GoodStudentIndicatorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HeatingAndCoolingContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HeatingUnitContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HeatSourceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HomeownersRatingCreditContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HorizCoordRefSystemContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HorseGenderContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HorseOperationsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HousekeepingConditionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HrsTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HullDesignTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HullMaterialTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HydrantTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="HYPPStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="IdentifierTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ImprovementContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="IncludedExcludedIndicatorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="IncludedPartiesContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="IndemnityTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="IndoorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InformationSourceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InitialTreatmentContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InquiryTermsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InquiryTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InsideOutsideContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InspectionReportSourceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InspectionStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InspectionTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InspectorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InstallationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InsulationTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InsuranceTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InsuredPrincipalRoleTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InterestContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InteriorBuiltInsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InteriorComponentContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InventoryAccountingMethodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="InventoryTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ItemDefinitionTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ItemLocationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="JobBasisContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="JobTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LandUseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LastVisitedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LayUpTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LegalAddressContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LegalEntityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LiabilityCargoAuthorityTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LiabilityClaimBasisContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LiabilityLossControlEventContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LicenseStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LicenseSubCodeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LicenseTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LimitAppliesContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LineOfBusinessContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LineOfBusinessSubCodeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LiningContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LitigationStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LocationRelationshipTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LocationTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LogTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LossEnteredByContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LossKindContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LossLocationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LossSourceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="LossSummaryTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ManufactureMethodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MaritalStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MaterialTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MedicalClassContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MedicareAuthorityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MedicareStatusOutcomeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MembershipContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MessageErrorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MessageStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MethodOfPaymentContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MinMaxContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MobileHomeFoundationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="MobileHomeInstallationStandardContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="NatureOfBusinessContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="NatureOperationsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="NonOwnedAutoCategoryContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="NonTaxIdTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="NumberOfStoriesContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ObstructionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OccupancyContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OccupancyTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OccupationClassContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OccurredPremisesContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OnPremisesLocationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OperationsTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OperatorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OperatorExperienceRestrictionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OptionBenefitContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OptionDescContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OrganizationIdentifierContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OtherDriverTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OtherPolicyTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OutsideAuthorityConditionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OwnershipContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PackingContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PaintTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PassengerTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PayDeterminationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PayKindContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PaymentTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PayorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PCILevelCodeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PerformedForContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PhoneTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PilotProfPhaseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PilotRatingContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PilotTrainingFacilityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PilotTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PipeVentStyleContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PlacementContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PlayingSurfaceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PlumbingTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PolicyHolderTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PolicyStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PolicyTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PoolConstructionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PorchBreezewayTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PremiumAccountingTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PremiumBaseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PremiumCalculationMethodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PremiumCategoryContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PremiumTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PreviousWCCoverageSourceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ProducerRoleContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ProductTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PropertyLocationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="PropulsionTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ProtectionDeviceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ProtectionExtentContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ProtectiveMaterialContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RaceTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RadiusUseTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RateScaleTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RatingTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RealEstateTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReasonForTransferContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReasonLiabilityRefusedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReasonTerminatedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReasonUnconfirmedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReasonVacantContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReferralTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RefNameContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RegistrationStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RegistrationTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReinstatementReasonContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReinstatementTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RenewalMethodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RenewalStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReplacementCostEvaluationMethodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReplacementCostEvaluationSystemContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReplacementTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReportingTransactionTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RequestorTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReserveFundingStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReservePositionTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ReservesStatusInFinancialStatementsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ResidenceTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ResidualMarketFacilityTierContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ResponseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ResponseIndicatorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ResponsibilityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RiskClassificationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RiskContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RiskQualifierContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RoleTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RoofCoverAttachmentContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RoofDeckAttachmentContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RoofDeckMaterialContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RoofGeometryTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RoofMaterialTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RoofWallAttachmentContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RunwayConstructionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="RuralFireProtectionDistrictContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SafeDoorTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SafeLabelContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SalesReceiptAppraisalsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SaveStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ScheduleTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SeacoastOrOtherBodyOfWaterProximityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SearchCriteriaContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SeasonContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SeatBeltTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SeenByContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SelfInsuredRetentionTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SettlementTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SharesTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ShipmentTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ShipperTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ShippingInterestContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ShorelineDistanceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ShortTermPremiumMethodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SidingTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SignatureFormTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SignConstructionMaterialContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SignedByContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SignonRoleContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SoftwareTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SparMaterialContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SpecialProgramContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SpecialtyRoomsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SpecificTestContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SportTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="StoredEquipmentContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="StormShutterTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="StovePipeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="StoveTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="StreamTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="StructureConditionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="StructureTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SubRiskContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SubRoleTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SubstructureTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SupplementaryNameTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SuretyTermsTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="SurveillanceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TaxFeeSurchargeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TaxFeeTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TaxFilingStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TaxIdTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TaxTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TelematicsDeviceRoleContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TelematicsDeviceStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TelematicsDeviceTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TelematicsEventTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TelematicsScoreBasisContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TelematicsScoreTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TestingTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TestTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ThimbleThroughContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TieDownAnchorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TieDownContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TieDownStrapsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TitleRelationshipContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TonRatingCapacityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TreatmentAdministrationMethodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="TreatmentContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="UnderlyingGeneralLiabilityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="UnderwritingDecisionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="UnitLocationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="UnoccupiedTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="UseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VacantOccupiedIndicatorContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ValuationMethodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ValuationTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ValueAppliesToContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="ValueTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehAntiTheftEngravingDevMfrContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehCoverageResponseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehElevAirTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehEquipmentTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehicleBodyTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehicleDamageabilityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehicleInspectionStatusContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehicleLeasedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehiclePerformanceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehicleSpecialUseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehicleTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehicleUseContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehInspectionDamageContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehInspectionExemptionContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VehMaterialTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VentLocationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="VerificationReasonContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WaitingPeriodContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WallTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WatchPersonFactorCreditContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WaterQuantityContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WatersNavigatedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WaterSourceContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WaterUnitTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WCClaimTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WindClassContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WindowBarsContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WindstormMitigationContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WiringTypeContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WorkContractedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WorkingUtilitiesContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WorkPerformedContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="WrittenPayableContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="YearIdentifierContentExt_Type">
+    <xsd:restriction base="Enumeration_Type"/>
+  </xsd:simpleType>
+</xsd:schema>

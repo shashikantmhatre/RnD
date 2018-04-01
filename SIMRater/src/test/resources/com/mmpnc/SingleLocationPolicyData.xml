@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../../../../../../main/resources/com/mmpnc/policy/iso/vo/BasePolicySchema.xsd">
+	<PolicyType>BOP</PolicyType>
+	<PolicyNo>123</PolicyNo>
+	<RenewNo>0</RenewNo>
+	<State>
+		<Code>CA</Code>
+	</State>
+	<Premium>0.0</Premium>
+	<EffDate>2013-01-31T12:00:00</EffDate>
+	<ExpDate>2014-01-31T12:00:00</ExpDate>
+	<Ratebook>EE45A6D1-45F3-311A-B8F8-467AA7C51A64</Ratebook>
+	<BOP>
+		<Ratebook>EE45A6D1-45F3-311A-B8F8-467AA7C51A64</Ratebook>
+		<LegalEntity>Corporation</LegalEntity>
+		<EachOccLimit>500,000</EachOccLimit>
+		<ProdCompldOpsAggregateLimit>1,000,000</ProdCompldOpsAggregateLimit>
+		<AggregateLimit>1,000,000</AggregateLimit>
+		<PropDamageLiabDed>250</PropDamageLiabDed>
+		<PropDamageLiabDedType>Per Occurrence Basis</PropDamageLiabDedType>
+		<AutomaticIncreasePct>8</AutomaticIncreasePct>
+		<BlktRated>No</BlktRated>
+		<BusnIncomeOrdinaryPayrollNumDays>60</BusnIncomeOrdinaryPayrollNumDays>
+		<Exempt>No</Exempt>
+		<BusnIncomeExtddPeriodNumDays>30</BusnIncomeExtddPeriodNumDays>
+		<BOPEmployeeDishtyCoverage>
+			<Limit>50000</Limit>
+		</BOPEmployeeDishtyCoverage>
+		<BOPComputerFraudFundsTransferFraudCoverage>
+			<Limit>No Coverage</Limit>
+		</BOPComputerFraudFundsTransferFraudCoverage>
+		<BOPElectronicDataCoverage>
+			<Limit>10000</Limit>
+		</BOPElectronicDataCoverage>
+		<BOPInterruptionComputerOpsCoverage>
+			<Limit>10000</Limit>
+		</BOPInterruptionComputerOpsCoverage>
+		<BOPForgeryAlterationCoverage>
+			<Limit>2,500</Limit>
+		</BOPForgeryAlterationCoverage>
+		<BOPAddlLiabExposuresCoverage>
+			<Charge>0</Charge>
+		</BOPAddlLiabExposuresCoverage>
+		<OptionalMedicalCovLimitPerPerson>5000</OptionalMedicalCovLimitPerPerson>
+		<IRPMApply>No</IRPMApply>
+		<TerrorismCoverage>Yes</TerrorismCoverage>
+		<ExcludeOtherActsOutsideUS>No</ExcludeOtherActsOutsideUS>
+		<ExcludePunitiveDamagesRelatedToCertifiedActOfTerrorism>No</ExcludePunitiveDamagesRelatedToCertifiedActOfTerrorism>
+		<BOPTerrorismCoverage />
+		<BOPLocation>
+			<Ratebook>EE45A6D1-45F3-311A-B8F8-467AA7C51A64</Ratebook>
+			<UnitNumber>3</UnitNumber>
+			<Address>
+				<Line1>100 Main St</Line1>
+				<CityName>Nashua</CityName>
+				<StateCode>CA</StateCode>
+			</Address>
+			<City>Dublin</City>
+			<County>Alameda</County>
+			<StreetName>9th Ave</StreetName>
+			<StreetNumber>2200</StreetNumber>
+			<EarthquakeZone>24</EarthquakeZone>
+			<RatingTerritory>029</RatingTerritory>
+			<MilesToFireDept>1000 or less</MilesToFireDept>
+			<FireProtectionClass>03</FireProtectionClass>
+			<OptionalDeductible>250</OptionalDeductible>
+			<WindHailDeductible>Not Applicable</WindHailDeductible>
+			<BOPLocationOutdoorSignsCoverage>
+				<Limit>0</Limit>
+			</BOPLocationOutdoorSignsCoverage>
+			<BOPLocationFireDeptServiceCoverage>
+				<Limit>2,500</Limit>
+			</BOPLocationFireDeptServiceCoverage>
+
+			<EmployeeDishtyApply>Yes</EmployeeDishtyApply>
+			<NumEmployees>4</NumEmployees>
+			<ComputerFraudApply>Not Applicable</ComputerFraudApply>
+			<ComputerFraudNumEmployees>0</ComputerFraudNumEmployees>
+			<BOPLocationMoneySecuritiesOnPremCoverage>
+				<Limit>0</Limit>
+			</BOPLocationMoneySecuritiesOnPremCoverage>
+			<BOPLocationMoneySecuritiesOffPremCoverage>
+				<Limit>0</Limit>
+			</BOPLocationMoneySecuritiesOffPremCoverage>
+			<SeparateAnnualAggregateLimit>Not Applicable</SeparateAnnualAggregateLimit>
+			<FungiLimit>0</FungiLimit>
+
+			<BOPStructure>
+				<Ratebook>EE45A6D1-45F3-311A-B8F8-467AA7C51A64</Ratebook>
+				<UnitNumber>1</UnitNumber>
+				<PropertyType>Self-Storage Facility</PropertyType>
+				<BuildingLimit>625000</BuildingLimit>
+				<BldgCodeEffectivenessGradeClass>Graded-building constructed during
+					or after year of community grading</BldgCodeEffectivenessGradeClass>
+				<BldgCodeEffectivenessGrade>3</BldgCodeEffectivenessGrade>
+				<RatingBasis>Replacement Cost</RatingBasis>
+				<BlktIDNumber>0</BlktIDNumber>
+				<ConstructionType>Fire-resistive</ConstructionType>
+				<Sprinklered>Yes</Sprinklered>
+				<PctOwnerOccupied>10% or less</PctOwnerOccupied>
+				<BOPStructureTenantsFireLiabCoverage>
+					<Limit>50000</Limit>
+				</BOPStructureTenantsFireLiabCoverage>
+				<SeparateAnnualAggregateLimit>Not Applicable</SeparateAnnualAggregateLimit>
+				<FungiLimit>0</FungiLimit>
+				<BOPOutdoorPropertyCoverage>
+					<Limit>2500</Limit>
+				</BOPOutdoorPropertyCoverage>
+				<BOPStructureLiabMedExpensesBldgCoverage />
+				<BOPOptionalPerPersonMedExpnsLimit />
+				<!-- 
+				<BOPStructureACVCoverage />
+				<BOPSprinklerLeakageEQExt /> 
+				<BOPWindHailExcl/> 
+				<BOPFunctlBldgValtn/> 
+				-->
+				<BOPEQSubLimit />
+				<BOPStructureBuildingCoverage />
+				<BOPDebrisRmvlAddlIns>
+					<Limit>30000</Limit>
+				</BOPDebrisRmvlAddlIns>
+				<BOPClassification>
+					<Ratebook>EE45A6D1-45F3-311A-B8F8-467AA7C51A64</Ratebook>
+					<ClassPropertyType>Self-Storage Facility</ClassPropertyType>
+					<ClassDescription>Self-Storage Facilities</ClassDescription>
+					<ClassCode>9411</ClassCode>
+					<RateNumber>26</RateNumber>
+					<ClassGroup>21</ClassGroup>
+					<BusnPrsnlPropLimit>5000</BusnPrsnlPropLimit>
+
+					<BlktIDNumber>0</BlktIDNumber>
+					<FunctlBusnPrsnlPropValtnApply>No</FunctlBusnPrsnlPropValtnApply>
+					<ExposureBasis>Limit of Insurance</ExposureBasis>
+					<Exposure>0</Exposure>
+					<Area>6000</Area>
+
+					<BOPClassificationBusnPrsnlPropCoverage>
+						<Expiration></Expiration>
+					</BOPClassificationBusnPrsnlPropCoverage>
+					<BOPClassificationAccountsReceivableCoverage>
+						<Limit>10000</Limit>
+					</BOPClassificationAccountsReceivableCoverage>
+					<BOPClassificationValuablePapersCoverage>
+						<Limit>10000</Limit>
+					</BOPClassificationValuablePapersCoverage>
+					<BOPTheftLimitationsCoverage>
+						<Limit>2500</Limit>
+					</BOPTheftLimitationsCoverage>
+					<BOPClassificationBusnIncomeDependentPropCoverage>
+						<Limit>5000</Limit>
+					</BOPClassificationBusnIncomeDependentPropCoverage>
+					<BOPClassificationAmusementAreaCoverage>
+						<AmusementArea>No</AmusementArea>
+					</BOPClassificationAmusementAreaCoverage>
+					<BOPClassificationPlaygroundCoverage>
+						<Playground>None</Playground>
+					</BOPClassificationPlaygroundCoverage>
+					<BOPClassificationSwimmingPoolCoverage>
+						<NumSwimmingPools>0</NumSwimmingPools>
+					</BOPClassificationSwimmingPoolCoverage>
+					<BOPClassificationPermanentYardsStorageCoverage>
+						<Limit>0</Limit>
+					</BOPClassificationPermanentYardsStorageCoverage>
+					<BOPOptionalPerPersonMedExpnsLimit />
+					<BOPClassificationLiabMedExpensesBusnPrsnlPropCoverage />
+
+					<BOPClassificationBPPTemporarilyInPortableStorageUnitsCoverage>
+						<Limit>10000</Limit>
+					</BOPClassificationBPPTemporarilyInPortableStorageUnitsCoverage>
+
+
+					<BOPSelfStorageFacilities>
+						<Limit>80000</Limit>
+						<SalesDisposalLiabLimit>2500</SalesDisposalLiabLimit>
+					</BOPSelfStorageFacilities>
+
+				</BOPClassification>
+			</BOPStructure>
+		</BOPLocation>
+	</BOP>
+  
+</Policy>

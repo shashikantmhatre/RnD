@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policy>
+	<PolicyType/>
+	<BOP>
+		<Premium>1000</Premium>
+	</BOP>
+	<BOP>
+		<Premium>2000</Premium>
+	</BOP>
+	<BOP>
+		<Premium>3000</Premium>
+	</BOP>
+</Policy>

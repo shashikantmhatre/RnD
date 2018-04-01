@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xsd:element name="Configuration">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="IgnorePCH" type="Programs" minOccurs="1"
+					maxOccurs="1" />
+				<xsd:element name="ProgramPCH" type="Programs" minOccurs="1"
+					maxOccurs="1" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:complexType name="Programs">
+		<xsd:sequence>
+			<xsd:element name="Program" type="xsd:string" minOccurs="1"
+				maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
