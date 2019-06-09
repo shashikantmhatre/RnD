@@ -37,7 +37,7 @@ public class SimpleClientWebSocketHandler extends AbstractWebSocketHandler {
 
 	private static final String TRADE_HISTORY_INSERT = "INSERT INTO TRADE_HISTORY (PRODUCT, ORDERSEQUENCE, CURRENTPRICE, OPEN24H, VOLUMN24H, LOW24H, HIGH24H, BESTBID, BESTASK, BIDTYPE, BIDTIME, RECEIVEDTIME, RECEIVEDORDERSEQUENCE) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
-	private static final String ORDER_BOOK_MERGE = "MERGE INTO ORDER_BOOK (PRODUCT, SIDE, PRICE, SIZE) KEY ( PRODUCT, SIDE , PRICE ) VALUES ( ?, ?, ?, ? )";
+	private static final String ORDER_BOOK_MERGE = "MERGE INTO ORDER_BOOK ( PRODUCT, SIDE, PRICE, SIZE ) KEY ( PRODUCT, SIDE , PRICE ) VALUES ( ?, ?, ?, ? )";
 
 	private static final String TICKER = "ticker";
 
@@ -82,15 +82,14 @@ public class SimpleClientWebSocketHandler extends AbstractWebSocketHandler {
 //			 trendObserver.update(messageData);
 			 saveTradeHistory(messageData);
 		} else if (SNAPSHOT.equals(messageData.getType())) {
-//			saveBids(messageData.getProductId(), messageData.getBids());
-//			saveAsks(messageData.getProductId(), messageData.getAsks());
+			saveBids(messageData.getProductId(), messageData.getBids());
+			saveAsks(messageData.getProductId(), messageData.getAsks());
 		} else if (L2UPDATE.equals(messageData.getType())) {
 			saveChanges(messageData.getProductId(), messageData.getChanges());
 		}
 	}
 
 	private void saveChanges(String product, List<List<String>> changes) throws SQLException {
-//		Connection connection = datasource.getConnection();
 		PreparedStatement prepareStatement = connection.prepareStatement(ORDER_BOOK_MERGE);
 		try {
 			changes.forEach(change -> {
@@ -107,12 +106,10 @@ public class SimpleClientWebSocketHandler extends AbstractWebSocketHandler {
 			});
 		} finally {
 			prepareStatement.close();
-//			connection.close();
 		}
 	}
 
 	private void saveBids(String product, List<List<BigDecimal>> bids) throws SQLException {
-//		Connection connection = datasource.getConnection();
 		PreparedStatement prepareStatement = connection.prepareStatement(ORDER_BOOK_MERGE);
 		try {
 			bids.forEach(bid -> {
@@ -129,7 +126,6 @@ public class SimpleClientWebSocketHandler extends AbstractWebSocketHandler {
 			});
 		} finally {
 			prepareStatement.close();
-//			connection.close();
 		}
 	}
 
@@ -137,7 +133,6 @@ public class SimpleClientWebSocketHandler extends AbstractWebSocketHandler {
 	
 	
 	private void saveAsks(String product, List<List<BigDecimal>> asks) throws SQLException {
-//		Connection connection = datasource.getConnection();
 		PreparedStatement prepareStatement = connection.prepareStatement(ORDER_BOOK_MERGE);
 		try {
 			asks.forEach(ask -> {
@@ -154,12 +149,10 @@ public class SimpleClientWebSocketHandler extends AbstractWebSocketHandler {
 			});
 		} finally {
 			prepareStatement.close();
-//			connection.close();
 		}
 	}
 
 	private void saveTradeHistory(MessageData ticker) throws SQLException {
-//		Connection connection = datasource.getConnection();
 		PreparedStatement prepareStatement = connection.prepareStatement(TRADE_HISTORY_INSERT);
 		try {
 			prepareStatement.setString(1, ticker.getProductId());
@@ -179,7 +172,6 @@ public class SimpleClientWebSocketHandler extends AbstractWebSocketHandler {
 			prepareStatement.executeUpdate();
 		} finally {
 			prepareStatement.close();
-//			connection.close();
 		}
 	}
 

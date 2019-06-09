@@ -1,0 +1,1 @@
+java -cp triggers-0.0.1-SNAPSHOT.jar;h2-1.4.195.jar org.h2.tools.Server

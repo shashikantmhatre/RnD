@@ -1,3 +1,7 @@
+CREATE SEQUENCE IF NOT EXISTS receivedordernumber nomaxvalue cache 100;
+
+CREATE SEQUENCE IF NOT EXISTS historysequence nomaxvalue cache 100;
+
 CREATE TABLE trade_history
 (
 	product VARCHAR(100),
@@ -19,7 +23,7 @@ CREATE TABLE trade_history
 CREATE TABLE trade_trend
 (
 	product VARCHAR(100),
-	NEWPRICE NUMBER,
+	newprice NUMBER,
 	open24h number,
 	volumn24h number,
 	low24h number,
@@ -28,7 +32,7 @@ CREATE TABLE trade_trend
 	bestAsk number,
 	trendingTowards varchar2(10),
 	trendChangeTime timestamp,
-	NEWPRICE NUMBER
+	oldprice NUMBER
 );
 
 CREATE TABLE trade_buy_order
@@ -69,7 +73,10 @@ CREATE TABLE order_book
 	product VARCHAR(100),
 	side VARCHAR(10),
 	price NUMBER,
-	size NUMBER
+	size NUMBER,
+	trade_time TIMESTAMP DEFAULT SYSDATE,
+	orderSequence number default receivedordernumber.nextval,
+	request_type VARCHAR(2) default 'I'
 );
 
 CREATE TABLE trade_request (
@@ -77,7 +84,15 @@ product VARCHAR(10),
 side VARCHAR(10),
 price number,
 request_size number,
-trade_time TIMESTAMP
-)
+trade_time TIMESTAMP,
+orderSequence number default receivedordernumber.nextval,
+request_type VARCHAR(2) default 'C'
+);
 
 CREATE INDEX orderbook_idx1 ON ORDER_BOOK (product, side, price);
+
+
+--execute below trigger before calling the gdax app
+--CREATE TRIGGER trade_order_insert_trigger BEFORE INSERT ON ORDER_BOOK FOR EACH ROW CALL "com.shashi.triggers.LogTradeInit";
+CREATE TRIGGER trade_order_change_trigger BEFORE UPDATE ON ORDER_BOOK FOR EACH ROW CALL "com.shashi.triggers.LogTradeChange";
+
